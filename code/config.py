@@ -231,7 +231,7 @@ MODELS = {
         "temperature": 0,
         "max_tokens": 1024,
     },
-    # ── Held-out API models (NeurIPS expansion, N=28) ──────────────────────
+    # ── Held-out API models (expansion, N=28) ───────────────────────────────
     # Standard models via OpenRouter
     "openrouter:gpt-4o": {
         "provider": "openrouter",

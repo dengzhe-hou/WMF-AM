@@ -31,7 +31,7 @@ code/
 ├── wmf_am_extended_k.py         # Extended K-sweep
 └── analysis/
     ├── beta1_slope_analysis.py  # Manipulation slope analysis
-    └── gen_neurips_figures.py   # Figure generation
+    └── gen_figures.py           # Figure generation
 
 data/
 ├── master_28models.csv          # All 28 models × all metrics
@@ -95,7 +95,7 @@ python code/wmf_am_yoked_control.py --model ollama:qwen2.5:7b    # Yoked cancell
 
 ### Generate figures
 ```bash
-python code/analysis/gen_neurips_figures.py
+python code/analysis/gen_figures.py
 ```
 
 ## Models Evaluated (N=28)

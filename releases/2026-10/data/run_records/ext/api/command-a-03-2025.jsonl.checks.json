@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-04T15:42:58.720899+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/ext/api/provenance/command-a-03-2025.endpoints.20261004T153832Z.json",
+  "records": "/path/to/repo/results/ext/api/command-a-03-2025.jsonl",
+  "bank": "/path/to/repo/ext/ext_bank.jsonl",
+  "request_model": "cohere/command-a",
+  "canonical_model": "cohere/command-a-03-2025",
+  "provider": "Cohere",
+  "checks": {
+    "endpoint request id == 'cohere/command-a'": true,
+    "original provider endpoint exists (Cohere)": true,
+    "original provider endpoints map to 'cohere/command-a-03-2025'": true,
+    "every bank item has exactly one final record (180 items)": true,
+    "request_model == 'cohere/command-a'": true,
+    "provider == 'Cohere'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

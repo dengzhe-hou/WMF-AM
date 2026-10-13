@@ -1,0 +1,11 @@
+template_1,template_2,n_models,tau_b
+original,formal,18,0.8304945741342583
+original,casual,18,0.6484679406273168
+original,minimal,18,0.6330863533223174
+original,verbose,18,0.620704416451776
+formal,casual,18,0.634543122312066
+formal,minimal,18,0.6192769277998639
+formal,verbose,18,0.5644633567547862
+casual,minimal,18,0.7316095349301202
+casual,verbose,18,0.6804485315449161
+minimal,verbose,18,0.7798806063223611

@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-04T15:38:24.531151+00:00",
+  "mode": "smoke",
+  "endpoints": "/path/to/repo/results/ext/api/provenance/gpt-5.2-2025-12-11.endpoints.20261004T153819Z.json",
+  "records": "/path/to/repo/results/ext/api/smoke/gpt-5.2-2025-12-11.20261004T153819Z.jsonl",
+  "bank": "/path/to/repo/frozen/bundle/smoke_bank.jsonl",
+  "request_model": "openai/gpt-5.2",
+  "canonical_model": "openai/gpt-5.2-20251211",
+  "provider": "OpenAI",
+  "checks": {
+    "endpoint request id == 'openai/gpt-5.2'": true,
+    "original provider endpoint exists (OpenAI)": true,
+    "original provider endpoints map to 'openai/gpt-5.2-20251211'": true,
+    "every bank item has exactly one final record (5 items)": true,
+    "request_model == 'openai/gpt-5.2'": true,
+    "provider == 'OpenAI'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true,
+    "error is null in every record": true
+  },
+  "passed": true
+}

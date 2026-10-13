@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "analysis_status": "sensitivity analysis added after the main results; not pre-specified",
+    "rule": "leave out models with more than half of their 60 core responses truncated",
+    "models_left_out": [
+      "Falcon3-3B-Instruct",
+      "Qwen3-4B-Instruct-2507",
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.5"
+    ],
+    "n_models": 14,
+    "statistic": "Kendall tau-b; ties retained",
+    "bootstrap": {
+      "n": 10000,
+      "seed": 42,
+      "rng": "numpy.random.RandomState",
+      "draws": "choice(n_models, size=n_models, replace=True) once per resample",
+      "interval": "2.5th and 97.5th percentiles of defined draws; pointwise, not simultaneous"
+    },
+    "versions": {
+      "python": "3.13.12",
+      "numpy": "2.4.3",
+      "scipy": "1.17.1"
+    }
+  },
+  "paired_differences": [
+    {
+      "criterion": "overall",
+      "comparison": "A-C",
+      "n_models": 14,
+      "tau_A": 0.8176920377625482,
+      "tau_C": 0.7214791053658227,
+      "delta_tau_b": 0.09621293239672546,
+      "ci95_low": -0.07198032343825488,
+      "ci95_high": 0.2541131875702477,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "comparison": "A-C",
+      "n_models": 14,
+      "tau_A": 0.7666666666666666,
+      "tau_C": 0.7617500626155121,
+      "delta_tau_b": 0.004916604051154461,
+      "ci95_low": -0.20634095693093546,
+      "ci95_high": 0.1884688139465396,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "comparison": "A-C",
+      "n_models": 14,
+      "tau_A": 0.795592252958155,
+      "tau_C": 0.6974298018536286,
+      "delta_tau_b": 0.09816245110452648,
+      "ci95_low": -0.07483543066982343,
+      "ci95_high": 0.2580014703899836,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ]
+}

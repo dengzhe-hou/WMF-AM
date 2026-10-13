@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="453.543307pt" height="141.732283pt" viewBox="0 0 453.543307 141.732283" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>fig_overview.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 141.732283 
+L 453.543307 141.732283 
+L 453.543307 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 6.349606 136.629921 
+L 106.129134 136.629921 
+Q 111.571654 136.629921 111.571654 134.929134 
+L 111.571654 6.80315 
+Q 111.571654 5.102362 106.129134 5.102362 
+L 6.349606 5.102362 
+Q 0.907087 5.102362 0.907087 6.80315 
+L 0.907087 134.929134 
+Q 0.907087 136.629921 6.349606 136.629921 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #ffffff; stroke: #4d4d4d; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.527559 136.629921 
+L 222.23622 136.629921 
+Q 227.67874 136.629921 227.67874 134.929134 
+L 227.67874 6.80315 
+Q 227.67874 5.102362 222.23622 5.102362 
+L 131.527559 5.102362 
+Q 126.085039 5.102362 126.085039 6.80315 
+L 126.085039 134.929134 
+Q 126.085039 136.629921 131.527559 136.629921 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #ffffff; stroke: #4d4d4d; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 135.609449 36 
+L 139.464567 36 
+L 139.464567 32.102362 
+L 135.609449 32.102362 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 135.609449 58.535433 
+L 139.464567 58.535433 
+L 139.464567 54.637795 
+L 135.609449 54.637795 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #cc79a7"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 135.609449 87.448819 
+L 139.464567 87.448819 
+L 139.464567 83.551181 
+L 135.609449 83.551181 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #56b4e9"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 135.609449 109.984252 
+L 139.464567 109.984252 
+L 139.464567 106.086614 
+L 135.609449 106.086614 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #e9a36a"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 247.634646 136.629921 
+L 334.714961 136.629921 
+Q 340.15748 136.629921 340.15748 134.929134 
+L 340.15748 6.80315 
+Q 340.15748 5.102362 334.714961 5.102362 
+L 247.634646 5.102362 
+Q 242.192126 5.102362 242.192126 6.80315 
+L 242.192126 134.929134 
+Q 242.192126 136.629921 247.634646 136.629921 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #ffffff; stroke: #4d4d4d; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 360.113386 136.629921 
+L 447.193701 136.629921 
+Q 452.63622 136.629921 452.63622 134.929134 
+L 452.63622 6.80315 
+Q 452.63622 5.102362 447.193701 5.102362 
+L 360.113386 5.102362 
+Q 354.670866 5.102362 354.670866 6.80315 
+L 354.670866 134.929134 
+Q 354.670866 136.629921 360.113386 136.629921 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #ffffff; stroke: #4d4d4d; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 112.025197 70.866142 
+Q 118.828346 70.866142 124.178052 70.866142 
+" clip-path="url(#p760b56e62f)" style="fill: none; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 120.178052 68.866142 
+L 124.178052 70.866142 
+L 120.178052 72.866142 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #4d4d4d; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 228.132283 70.866142 
+Q 234.935433 70.866142 240.285138 70.866142 
+" clip-path="url(#p760b56e62f)" style="fill: none; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 236.285138 68.866142 
+L 240.285138 70.866142 
+L 236.285138 72.866142 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #4d4d4d; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 340.611024 70.866142 
+Q 347.414173 70.866142 352.763879 70.866142 
+" clip-path="url(#p760b56e62f)" style="fill: none; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 348.763879 68.866142 
+L 352.763879 70.866142 
+L 348.763879 72.866142 
+z
+" clip-path="url(#p760b56e62f)" style="fill: #4d4d4d; stroke: #4d4d4d; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 131.981102 32.314961 
+L 131.981102 78.094488 
+" clip-path="url(#p760b56e62f)" style="fill: none; stroke: #8c8c8c; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 131.981102 83.76378 
+L 131.981102 129.543307 
+" clip-path="url(#p760b56e62f)" style="fill: none; stroke: #8c8c8c; stroke-width: 0.6"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="8.16378" y="15.783546" transform="rotate(-0 8.16378 15.783546)">1  Generate an item</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_13">
+     <path d="M 8.617323 61.061285 
+L 107.952479 61.061285 
+Q 109.952479 61.061285 109.952479 59.061285 
+L 109.952479 24.094488 
+Q 109.952479 22.094488 107.952479 22.094488 
+L 8.617323 22.094488 
+Q 6.617323 22.094488 6.617323 24.094488 
+L 6.617323 59.061285 
+Q 6.617323 61.061285 8.617323 61.061285 
+z
+" style="fill: #ededed"/>
+    </g>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 27.920269)">Leo: 15 points, James: 18 points,</text>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 33.933629)">Carol: 15 points</text>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 39.946988)">1. Carol gives 2 points to Leo.</text>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 45.994723)">2. Leo loses 2 points.</text>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 52.008082)">3. Leo loses 3 points.</text>
+    <text style="font-size: 5px; font-family: 'DejaVu Sans Mono'" transform="translate(8.617323 58.021441)">How many points does Leo have?</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="8.617323" y="73.266477" transform="rotate(-0 8.617323 73.266477)">Code computes the answer:</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="8.617323" y="85.94682" transform="rotate(-0 8.617323 85.94682)">15 + 2 − 2 − 3 = 12</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="8.617323" y="128.452789" transform="rotate(-0 8.617323 128.452789)">K = 3 to 100 updates per item.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(133.341732 15.804921)">2  Vary the response</text>
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(133.341732 23.504646)">    protocol</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="35.618946" transform="rotate(-0 141.959055 35.618946)">Core</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="159.717402" y="35.698384" transform="rotate(-0 159.717402 35.698384)">“Respond with ONLY</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="41.996899" transform="rotate(-0 141.959055 41.996899)">the final number.”</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="48.177633" transform="rotate(-0 141.959055 48.177633)">16 tokens · one integer</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="58.154379" transform="rotate(-0 141.959055 58.154379)">Instructions</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="64.607894" transform="rotate(-0 141.959055 64.607894)">new user/system prompts</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="70.713066" transform="rotate(-0 141.959055 70.713066)">16 tokens · one integer</text>
+   </g>
+   <g id="text_14">
+    <text style="font-style: italic; font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="77.073503" transform="rotate(-0 141.959055 77.073503)">little room to write steps</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="87.067765" transform="rotate(-0 141.959055 87.067765)">Large budget</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="185.007402" y="87.067765" transform="rotate(-0 185.007402 87.067765)">core prompt</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="93.230983" transform="rotate(-0 141.959055 93.230983)">512 tokens</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="99.680842" transform="rotate(-0 141.959055 99.680842)">one-integer / last-integer</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="109.603198" transform="rotate(-0 141.959055 109.603198)">Written steps</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="141.959055" y="116.056713" transform="rotate(-0 141.959055 116.056713)">“Think step by step …”</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="122.161885" transform="rotate(-0 141.959055 122.161885)">512 tokens · last integer</text>
+   </g>
+   <g id="text_22">
+    <text style="font-style: italic; font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="141.959055" y="128.522322" transform="rotate(-0 141.959055 128.522322)">more room to write steps</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="249.448819" y="15.783546" transform="rotate(-0 249.448819 15.783546)">3  Score the answer</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="249.902362" y="28.317598" transform="rotate(-0 249.902362 28.317598)">Response</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #555555" x="282.55748" y="28.317598" transform="rotate(-0 282.55748 28.317598)">Result</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="249.902362" y="43.011685" transform="rotate(-0 249.902362 43.011685)">“12”</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1a1a1a" x="282.55748" y="42.70556" transform="rotate(-0 282.55748 42.70556)">correct</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="249.902362" y="58.602236" transform="rotate(-0 249.902362 58.602236)">“28”</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start; fill: #1a1a1a" x="282.55748" y="58.296111" transform="rotate(-0 282.55748 58.296111)">one integer, wrong</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.2px; font-family: 'DejaVu Sans Mono'; text-anchor: start" x="249.902362" y="74.192788" transform="rotate(-0 249.902362 74.192788)">“17, 15, 12”</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; fill: #555555" transform="translate(253.984252 84.516584)">several integers, wrong by</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; fill: #555555" transform="translate(253.984252 90.92501)">the one-integer rule, correct</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; fill: #555555" transform="translate(253.984252 97.333437)">by the last-integer rule</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; fill: #555555" transform="translate(249.902362 121.901879)">Responses that hit the token</text>
+    <text style="font-size: 5.9px; font-family: 'Arial', 'Helvetica', sans-serif; fill: #555555" transform="translate(249.902362 128.443274)">limit are flagged as truncated.</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="361.927559" y="15.871296" transform="rotate(-0 361.927559 15.871296)">4  Compare</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="362.381102" y="29.949655" transform="rotate(-0 362.381102 29.949655)">Length</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="390.500787" y="29.968061" transform="rotate(-0 390.500787 29.968061)">3 to 100 updates</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="362.381102" y="44.122883" transform="rotate(-0 362.381102 44.122883)">States</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 44.122883)">earlier vs later</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 50.479821)">and 1, 2, or 4 targets</text>
+   </g>
+   <g id="text_38">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="362.381102" y="67.083513" transform="rotate(-0 362.381102 67.083513)">Tasks</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 67.083513)">core vs arithmetic</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 73.419283)">and simpler tasks</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="362.381102" y="90.044143" transform="rotate(-0 362.381102 90.044143)">Variants</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 90.044143)">5 wordings,</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 96.45257)">4 item seeds</text>
+   </g>
+   <g id="text_42">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif; text-anchor: start" x="362.381102" y="113.004773" transform="rotate(-0 362.381102 113.004773)">External</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 113.004773)">probe scores vs</text>
+    <text style="font-size: 6.2px; font-family: 'Arial', 'Helvetica', sans-serif" transform="translate(390.500787 119.340543)">BFCL scores</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p760b56e62f">
+   <rect x="0" y="0" width="453.543307" height="141.732283"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,46 @@
+record,category,state,elapsed_seconds,allocated_devices,allocated_device_seconds,unit,device
+run_01,full_pipeline_pilot,COMPLETED,541,1,541,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_02,final_main,COMPLETED,726,1,726,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_03,failed_or_stopped_main_attempt,FAILED,92,1,92,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_04,failed_or_stopped_main_attempt,FAILED,89,1,89,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_05,final_main,COMPLETED,212,1,212,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_06,final_main,COMPLETED,278,1,278,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_07,final_main,COMPLETED,292,1,292,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_08,final_main,COMPLETED,474,1,474,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_09,final_main,COMPLETED,554,1,554,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_10,final_main,COMPLETED,436,1,436,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_11,failed_or_stopped_main_attempt,CANCELLED,1909,2,3818,whole_GPU_hours,NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition
+run_12,communication_diagnostics,COMPLETED,121,2,242,whole_GPU_hours,NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition
+run_13,communication_diagnostics,FAILED,111,2,222,whole_GPU_hours,NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition
+run_14,final_main,COMPLETED,1162,2,2324,whole_GPU_hours,NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition
+run_15,echo_diagnostics,COMPLETED,14,1,14,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_16,echo_diagnostics,COMPLETED,42,1,42,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_17,echo_diagnostics,COMPLETED,173,1,173,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_18,echo_diagnostics,COMPLETED,16,1,16,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_19,echo_diagnostics,COMPLETED,11,1,11,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_20,final_main,COMPLETED,150,1,150,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_21,final_main,COMPLETED,100,1,100,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_22,cancelled_before_allocation,CANCELLED,0,0,0,none,not_allocated
+run_23,cancelled_before_allocation,CANCELLED,0,0,0,none,not_allocated
+run_24,cancelled_before_allocation,CANCELLED,0,0,0,none,not_allocated
+run_25,final_intermediate_multitarget,COMPLETED,152,1,152,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_26,final_intermediate_multitarget,COMPLETED,84,1,84,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_27,superseded_intermediate_multitarget,COMPLETED,128,1,128,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_28,superseded_intermediate_multitarget,COMPLETED,129,1,129,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_29,superseded_intermediate_multitarget,COMPLETED,135,1,135,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_30,final_intermediate_multitarget,COMPLETED,130,1,130,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_31,final_intermediate_multitarget,COMPLETED,168,1,168,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_32,final_intermediate_multitarget,COMPLETED,196,1,196,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_33,final_intermediate_multitarget,COMPLETED,214,1,214,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_34,final_intermediate_multitarget,COMPLETED,75,1,75,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_35,final_intermediate_multitarget,COMPLETED,99,1,99,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_36,final_intermediate_multitarget,COMPLETED,90,1,90,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_37,final_large_budget,COMPLETED,137,1,137,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_38,final_large_budget,COMPLETED,70,1,70,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_39,final_large_budget,COMPLETED,96,1,96,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_40,final_large_budget,COMPLETED,71,1,71,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_41,final_large_budget,COMPLETED,78,1,78,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_42,final_large_budget,COMPLETED,66,1,66,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_43,final_large_budget,COMPLETED,201,1,201,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_44,final_large_budget,COMPLETED,92,1,92,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb
+run_45,final_large_budget,COMPLETED,117,1,117,MIG_instance_hours,NVIDIA A100 80GB PCIe MIG 4g.40gb

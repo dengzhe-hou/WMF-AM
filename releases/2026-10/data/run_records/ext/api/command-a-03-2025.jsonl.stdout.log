@@ -1,0 +1,5 @@
+command-a-03-2025: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+command-a-03-2025: finished=180 missing=0 int_items=60 correct_last_int=51 not_bare_number=0 finish_reason_length=0

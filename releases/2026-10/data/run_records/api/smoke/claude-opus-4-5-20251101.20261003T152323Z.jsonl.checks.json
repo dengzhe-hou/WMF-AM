@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-03T15:23:28.256907+00:00",
+  "mode": "smoke",
+  "endpoints": "/path/to/repo/results/api/provenance/claude-opus-4-5-20251101.endpoints.20261003T152323Z.json",
+  "records": "/path/to/repo/results/api/smoke/claude-opus-4-5-20251101.20261003T152323Z.jsonl",
+  "bank": "/path/to/repo/frozen/bundle/smoke_bank.jsonl",
+  "request_model": "anthropic/claude-opus-4.5",
+  "canonical_model": "anthropic/claude-4.5-opus-20251124",
+  "provider": "Anthropic",
+  "checks": {
+    "endpoint request id == 'anthropic/claude-opus-4.5'": true,
+    "original provider endpoint exists (Anthropic)": true,
+    "original provider endpoints map to 'anthropic/claude-4.5-opus-20251124'": true,
+    "every bank item has exactly one final record (5 items)": true,
+    "request_model == 'anthropic/claude-opus-4.5'": true,
+    "provider == 'Anthropic'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true,
+    "error is null in every record": true
+  },
+  "passed": true
+}

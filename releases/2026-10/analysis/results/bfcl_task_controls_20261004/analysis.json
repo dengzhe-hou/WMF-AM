@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "status": "exploratory; specified after model scores, marginal associations and BFCL single-turn/parameter adjustments were visible",
+    "source": "/path/to/repo/results/panel18_20261004/BFCL_INPUTS_20261004.csv",
+    "baseline_source": "/path/to/repo/results/panel18_20261004/bfcl_comparison_20261004/analysis.json",
+    "baseline": "Previously computed A associations copied for context, not recomputed",
+    "models_in_input_order": [
+      "Granite-4.0-350m",
+      "Granite-3.1-8B-Instruct",
+      "Llama-3.2-1B-Instruct",
+      "Llama-3.2-3B-Instruct",
+      "Llama-3.3-70B-Instruct",
+      "Falcon3-1B-Instruct",
+      "Falcon3-3B-Instruct",
+      "Falcon3-7B-Instruct",
+      "Falcon3-10B-Instruct",
+      "Qwen3-4B-Instruct-2507",
+      "GPT-5.2",
+      "GPT-4.1",
+      "GPT-4.1-mini",
+      "Claude Haiku 4.5",
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.5",
+      "Command A",
+      "Command R7B"
+    ],
+    "n_models": 18,
+    "criterion_snapshot": "2025-12-16",
+    "criteria_parallel": [
+      "overall",
+      "multi_turn",
+      "agentic"
+    ],
+    "target": "A (60 items), strict one-integer scoring",
+    "control_specs": {
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "C_and_D": [
+        "C",
+        "D"
+      ]
+    },
+    "control_definitions": {
+      "C": "Single-step arithmetic, 90 items",
+      "D": "Yoked/cancellation control, 100 items"
+    },
+    "statistic": "Average-rank X,Y,Z; linear residuals of X and Y on Z; Kendall tau-b between residuals",
+    "numerical_convention": "Existing analyze.py slope ridge 1e-12 and residual pairwise tie tolerance 1e-9",
+    "bootstrap": {
+      "n": 10000,
+      "seed": 42,
+      "rng": "numpy.random.RandomState",
+      "pairing": "Same model draws for all criteria and all three control specifications",
+      "refit": "Re-rank and refit both residual regressions in each sample",
+      "ci": "Pointwise 95% percentile over defined draws, no multiplicity adjustment",
+      "undefined": "Retain counts; do not replace undefined tau by zero"
+    },
+    "limits": [
+      "Not standard partial Kendall or a conditional-independence test",
+      "No held-out prediction or comparison of predictive gains",
+      "No causal working-memory mechanism inference",
+      "Model bootstrap only; no item resampling or correction for provider dependence",
+      "Control scores have finite-item measurement error and retain ceiling/ties",
+      "Prompt/compliance/truncation confounding remains",
+      "No model exclusion, p value, or automatic manuscript-claim decision"
+    ],
+    "versions": {
+      "python": "3.13.12",
+      "numpy": "2.4.3",
+      "scipy": "1.17.1"
+    }
+  },
+  "baseline_associations": [
+    {
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.4488668861494257,
+      "ci95_low": 0.041810444538342845,
+      "ci95_high": 0.8362826230087421,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.41722769247548885,
+      "ci95_low": 0.014702114313983349,
+      "ci95_high": 0.7915250489184966,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.4488668861494257,
+      "ci95_low": 0.06616926851729935,
+      "ci95_high": 0.8013886610541421,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ],
+  "associations": [
+    {
+      "adjustment": "C",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.06557412294705281,
+      "ci95_low": -0.4788877098205673,
+      "ci95_high": 0.5950052447559193,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.11803342130469507,
+      "ci95_low": -0.5384615384615384,
+      "ci95_high": 0.4706119904776273,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.06557412294705281,
+      "ci95_low": -0.4332248498167976,
+      "ci95_high": 0.6028368794326242,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.2679738562091504,
+      "ci95_low": -0.14482758620689654,
+      "ci95_high": 0.7655172413793102,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.18954248366013074,
+      "ci95_low": -0.19151543300761345,
+      "ci95_high": 0.7222222222222222,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.2679738562091504,
+      "ci95_low": -0.1323657959687371,
+      "ci95_high": 0.7446808510638298,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.07189542483660132,
+      "ci95_low": -0.3426573426573426,
+      "ci95_high": 0.5915564817476285,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.045751633986928116,
+      "ci95_low": -0.4657534246575342,
+      "ci95_high": 0.4965986394557823,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.22875816993464054,
+      "ci95_low": -0.3566433566433566,
+      "ci95_high": 0.6258992805755397,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ]
+}

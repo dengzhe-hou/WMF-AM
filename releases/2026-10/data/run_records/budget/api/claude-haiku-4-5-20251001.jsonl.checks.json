@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-05T14:16:29.367401+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/budget_20261005/api/provenance/claude-haiku-4-5-20251001.endpoints.20261005T141526Z.json",
+  "records": "/path/to/repo/results/budget_20261005/api/claude-haiku-4-5-20251001.jsonl",
+  "bank": "/path/to/repo/budget_20261005/budget_bank.jsonl",
+  "request_model": "anthropic/claude-haiku-4.5",
+  "canonical_model": "anthropic/claude-4.5-haiku-20251001",
+  "provider": "Anthropic",
+  "checks": {
+    "endpoint request id == 'anthropic/claude-haiku-4.5'": true,
+    "original provider endpoint exists (Anthropic)": true,
+    "original provider endpoints map to 'anthropic/claude-4.5-haiku-20251001'": true,
+    "every bank item has exactly one final record (60 items)": true,
+    "request_model == 'anthropic/claude-haiku-4.5'": true,
+    "provider == 'Anthropic'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

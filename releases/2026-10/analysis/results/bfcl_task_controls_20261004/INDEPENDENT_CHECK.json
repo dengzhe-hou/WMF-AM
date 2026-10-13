@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "source": "/path/to/repo/results/panel18_20261004/BFCL_INPUTS_20261004.csv",
+    "reference": "/path/to/repo/results/panel18_20261004/bfcl_task_controls_20261004/analysis.json",
+    "models_in_input_order": [
+      "Granite-4.0-350m",
+      "Granite-3.1-8B-Instruct",
+      "Llama-3.2-1B-Instruct",
+      "Llama-3.2-3B-Instruct",
+      "Llama-3.3-70B-Instruct",
+      "Falcon3-1B-Instruct",
+      "Falcon3-3B-Instruct",
+      "Falcon3-7B-Instruct",
+      "Falcon3-10B-Instruct",
+      "Qwen3-4B-Instruct-2507",
+      "GPT-5.2",
+      "GPT-4.1",
+      "GPT-4.1-mini",
+      "Claude Haiku 4.5",
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.5",
+      "Command A",
+      "Command R7B"
+    ],
+    "method": "Explicit repeated rows; scipy.stats.rankdata average ranks; numpy.linalg.lstsq with intercept; independent unordered-pair tau-b counts",
+    "no_main_kernel_import": true,
+    "bootstrap": {
+      "n": 10000,
+      "seed": 42,
+      "rng": "numpy.random.RandomState",
+      "draws": "choice(18, size=18, replace=True), resetting RNG for each adjustment",
+      "pairing": "Identical index stream for all criteria and adjustments",
+      "refit": "Recompute average ranks and refit residuals within each repeated-row sample",
+      "interval": "2.5th and 97.5th numpy.percentile of defined draws"
+    },
+    "residual_tie_tolerance": 1e-09,
+    "comparison_tolerance": 1e-12,
+    "versions": {
+      "python": "3.13.12",
+      "numpy": "2.4.3",
+      "scipy": "1.17.1"
+    },
+    "elapsed_seconds": 3.5124426521360874
+  },
+  "associations": [
+    {
+      "adjustment": "C",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.06557412294705281,
+      "ci95_low": -0.4788877098205672,
+      "ci95_high": 0.5950052447559192,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.11803342130469506,
+      "ci95_low": -0.5384615384615384,
+      "ci95_high": 0.47061199047762736,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.06557412294705281,
+      "ci95_low": -0.4332248498167976,
+      "ci95_high": 0.6028368794326241,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.2679738562091503,
+      "ci95_low": -0.14482758620689656,
+      "ci95_high": 0.7655172413793103,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.1895424836601307,
+      "ci95_low": -0.19151543300761348,
+      "ci95_high": 0.7222222222222222,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "D",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.2679738562091503,
+      "ci95_low": -0.13236579596873713,
+      "ci95_high": 0.7446808510638298,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.0718954248366013,
+      "ci95_low": -0.34265734265734266,
+      "ci95_high": 0.5915564817476285,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": -0.0457516339869281,
+      "ci95_low": -0.4657534246575342,
+      "ci95_high": 0.4965986394557823,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "adjustment": "C_and_D",
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.22875816993464052,
+      "ci95_low": -0.35664335664335667,
+      "ci95_high": 0.6258992805755396,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ],
+  "passed": true,
+  "point_check": {
+    "passed": true,
+    "checked_values": 18,
+    "maximum_absolute_numeric_difference": 5.551115123125783e-17,
+    "discrepancies": []
+  },
+  "bootstrap_check": {
+    "passed": true,
+    "checked_values": 36,
+    "maximum_absolute_numeric_difference": 1.1102230246251565e-16,
+    "discrepancies": []
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "meta": {
+    "analysis_status": "exploratory; selected after model scores were visible",
+    "input": "/path/to/repo/results/panel18_20261004/BFCL_INPUTS_20261004.csv",
+    "scored_source": "/path/to/repo/results/panel18_20261004/scored/scored_items.csv",
+    "criterion_source": "/path/to/repo/freeze_draft/bfcl_criterion_19.csv",
+    "criterion_snapshot": "2025-12-16",
+    "criteria_parallel_no_primary": [
+      "overall",
+      "multi_turn",
+      "agentic"
+    ],
+    "models_in_input_order": [
+      "Granite-4.0-350m",
+      "Granite-3.1-8B-Instruct",
+      "Llama-3.2-1B-Instruct",
+      "Llama-3.2-3B-Instruct",
+      "Llama-3.3-70B-Instruct",
+      "Falcon3-1B-Instruct",
+      "Falcon3-3B-Instruct",
+      "Falcon3-7B-Instruct",
+      "Falcon3-10B-Instruct",
+      "Qwen3-4B-Instruct-2507",
+      "GPT-5.2",
+      "GPT-4.1",
+      "GPT-4.1-mini",
+      "Claude Haiku 4.5",
+      "Claude Sonnet 4.5",
+      "Claude Opus 4.5",
+      "Command A",
+      "Command R7B"
+    ],
+    "n_models": 18,
+    "family_counts": {
+      "ibm-granite": 2,
+      "meta-llama": 3,
+      "tiiuae": 4,
+      "qwen": 1,
+      "openai": 3,
+      "anthropic": 3,
+      "cohere": 2
+    },
+    "family_definition": "Existing HF organization / API provider labels; not verified training-lineage clusters",
+    "statistic": "Kendall tau-b; ties retained",
+    "bootstrap": {
+      "n": 10000,
+      "seed": 42,
+      "rng": "numpy.random.RandomState",
+      "draws": "choice(n_models, size=n_models, replace=True) once per resample",
+      "pairing": "Same model draws for every predictor and criterion; compute difference within each draw",
+      "interval": "2.5th and 97.5th percentiles of defined draws; pointwise, not simultaneous",
+      "undefined_draws": "Excluded only from that statistic's interval; count retained; no model exclusion"
+    },
+    "leave_one_family_out": "Point statistics only; main estimates always retain all 18 models",
+    "limits": [
+      "Model resampling does not include item sampling uncertainty",
+      "Model panel is not a random sample of all LLMs",
+      "Model bootstrap does not remove within-family dependence; LOFO is a numerical sensitivity check",
+      "Different block sizes and ceiling/ties remain; associations are not causal mechanism evidence",
+      "Public BFCL and current probes are different evaluations"
+    ],
+    "remaining": [
+      "Single-turn and parameter controls; specific adjustment methods still pending",
+      "E/F final scoring and remaining analysis specifications"
+    ],
+    "versions": {
+      "python": "3.13.12",
+      "numpy": "2.4.3",
+      "scipy": "1.17.1"
+    }
+  },
+  "associations": [
+    {
+      "criterion": "overall",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.4488668861494257,
+      "ci95_low": 0.041810444538342845,
+      "ci95_high": 0.8362826230087421,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "overall",
+      "block": "C",
+      "n_models": 18,
+      "tau_b": 0.7158705108015654,
+      "ci95_low": 0.532123708169255,
+      "ci95_high": 0.8558024588838539,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "overall",
+      "block": "D",
+      "n_models": 18,
+      "tau_b": 0.2697426797437369,
+      "ci95_low": -0.13477717326278357,
+      "ci95_high": 0.6831239734144334,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.41722769247548885,
+      "ci95_low": 0.014702114313983349,
+      "ci95_high": 0.7915250489184966,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "block": "C",
+      "n_models": 18,
+      "tau_b": 0.739985775112212,
+      "ci95_low": 0.5664688467286375,
+      "ci95_high": 0.872252479600486,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "block": "D",
+      "n_models": 18,
+      "tau_b": 0.29043062461967495,
+      "ci95_low": -0.1193151918437918,
+      "ci95_high": 0.7000955301965117,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "block": "A",
+      "n_models": 18,
+      "tau_b": 0.4488668861494257,
+      "ci95_low": 0.06616926851729935,
+      "ci95_high": 0.8013886610541421,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "block": "C",
+      "n_models": 18,
+      "tau_b": 0.6869464497590779,
+      "ci95_low": 0.4823762740669148,
+      "ci95_high": 0.8447262698246374,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "block": "D",
+      "n_models": 18,
+      "tau_b": 0.2960590387431259,
+      "ci95_low": -0.13286713286713286,
+      "ci95_high": 0.7175662181478856,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ],
+  "paired_differences": [
+    {
+      "criterion": "overall",
+      "comparison": "A-C",
+      "n_models": 18,
+      "delta_tau_b": -0.26700362465213967,
+      "ci95_low": -0.660853638613696,
+      "ci95_high": 0.09355742478233157,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "overall",
+      "comparison": "A-D",
+      "n_models": 18,
+      "delta_tau_b": 0.17912420640568882,
+      "ci95_low": -0.09230907921882286,
+      "ci95_high": 0.5018258012269085,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "comparison": "A-C",
+      "n_models": 18,
+      "delta_tau_b": -0.3227580826367231,
+      "ci95_low": -0.6960668026162004,
+      "ci95_high": 0.024316807459568133,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "multi_turn",
+      "comparison": "A-D",
+      "n_models": 18,
+      "delta_tau_b": 0.1267970678558139,
+      "ci95_low": -0.14170995093866043,
+      "ci95_high": 0.4450337351848302,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "comparison": "A-C",
+      "n_models": 18,
+      "delta_tau_b": -0.2380795636096522,
+      "ci95_low": -0.6311076243667522,
+      "ci95_high": 0.1120742929219961,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    },
+    {
+      "criterion": "agentic",
+      "comparison": "A-D",
+      "n_models": 18,
+      "delta_tau_b": 0.15280784740629982,
+      "ci95_low": -0.1371840402470391,
+      "ci95_high": 0.47419717487189506,
+      "boot_valid": 10000,
+      "boot_undefined": 0
+    }
+  ],
+  "leave_one_family_out": [
+    {
+      "criterion": "overall",
+      "family_left_out": "anthropic",
+      "n_models": 15,
+      "tau_A": 0.7019555275403673,
+      "tau_C": 0.6908641205640272,
+      "tau_D": 0.5167523265868932,
+      "delta_A_C": 0.011091406976340035,
+      "delta_A_D": 0.1852032009534741
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "cohere",
+      "n_models": 16,
+      "tau_A": 0.4369902195443293,
+      "tau_C": 0.7431505414602934,
+      "tau_D": 0.25210974204480535,
+      "delta_A_C": -0.30616032191596404,
+      "delta_A_D": 0.18488047749952397
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "ibm-granite",
+      "n_models": 16,
+      "tau_A": 0.4304142310105583,
+      "tau_C": 0.685248288864193,
+      "tau_D": 0.235302425908485,
+      "delta_A_C": -0.25483405785363467,
+      "delta_A_D": 0.19511180510207332
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "meta-llama",
+      "n_models": 15,
+      "tau_A": 0.32536257599915497,
+      "tau_C": 0.766651877999928,
+      "tau_D": 0.2403957286097148,
+      "delta_A_C": -0.441289302000773,
+      "delta_A_D": 0.08496684738944016
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "openai",
+      "n_models": 15,
+      "tau_A": 0.34786262139146906,
+      "tau_C": 0.6908641205640272,
+      "tau_D": 0.10476190476190476,
+      "delta_A_C": -0.3430014991725582,
+      "delta_A_D": 0.24310071662956428
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "qwen",
+      "n_models": 17,
+      "tau_A": 0.5279138719240444,
+      "tau_C": 0.7426106572325056,
+      "tau_D": 0.2814892041993309,
+      "delta_A_C": -0.21469678530846126,
+      "delta_A_D": 0.2464246677247135
+    },
+    {
+      "criterion": "overall",
+      "family_left_out": "tiiuae",
+      "n_models": 14,
+      "tau_A": 0.38891289659881634,
+      "tau_C": 0.6999788190461225,
+      "tau_D": 0.2333477379592898,
+      "delta_A_C": -0.31106592244730613,
+      "delta_A_D": 0.15556515863952652
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "anthropic",
+      "n_models": 15,
+      "tau_A": 0.6570124975650647,
+      "tau_C": 0.7243592729269805,
+      "tau_D": 0.5480769230769231,
+      "delta_A_C": -0.0673467753619158,
+      "delta_A_D": 0.10893557448814162
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "cohere",
+      "n_models": 16,
+      "tau_A": 0.3966280032559651,
+      "tau_C": 0.7554796568578022,
+      "tau_D": 0.2784834916478053,
+      "delta_A_C": -0.3588516536018371,
+      "delta_A_D": 0.11814451160815981
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "ibm-granite",
+      "n_models": 16,
+      "tau_A": 0.38984450773870644,
+      "tau_C": 0.7167931874056448,
+      "tau_D": 0.261605704275211,
+      "delta_A_C": -0.32694867966693836,
+      "delta_A_D": 0.12823880346349542
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "meta-llama",
+      "n_models": 15,
+      "tau_A": 0.2679456508228335,
+      "tau_C": 0.766651877999928,
+      "tau_D": 0.2403957286097148,
+      "delta_A_C": -0.49870622717709445,
+      "delta_A_D": 0.027549922213118694
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "openai",
+      "n_models": 15,
+      "tau_A": 0.3592402322885356,
+      "tau_C": 0.7243592729269805,
+      "tau_D": 0.13397282541141675,
+      "delta_A_C": -0.36511904063844497,
+      "delta_A_D": 0.22526740687711883
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "qwen",
+      "n_models": 17,
+      "tau_A": 0.4925510291236095,
+      "tau_C": 0.7702011922499276,
+      "tau_D": 0.3048348201094049,
+      "delta_A_C": -0.2776501631263181,
+      "delta_A_D": 0.1877162090142046
+    },
+    {
+      "criterion": "multi_turn",
+      "family_left_out": "tiiuae",
+      "n_models": 14,
+      "tau_A": 0.3444657084160945,
+      "tau_C": 0.7263931141044667,
+      "tau_D": 0.25557133205065075,
+      "delta_A_C": -0.38192740568837225,
+      "delta_A_D": 0.08889437636544373
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "anthropic",
+      "n_models": 15,
+      "tau_A": 0.7019555275403673,
+      "tau_C": 0.6508140266182866,
+      "tau_D": 0.5550302767044407,
+      "delta_A_C": 0.051141500922080696,
+      "delta_A_D": 0.14692525083592656
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "cohere",
+      "n_models": 16,
+      "tau_A": 0.4201829034080089,
+      "tau_C": 0.7248011453748541,
+      "tau_D": 0.3025316904537665,
+      "delta_A_C": -0.30461824196684517,
+      "delta_A_D": 0.11765121295424241
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "ibm-granite",
+      "n_models": 16,
+      "tau_A": 0.4304142310105583,
+      "tau_C": 0.6471789394828489,
+      "tau_D": 0.2016877936358443,
+      "delta_A_C": -0.21676470847229057,
+      "delta_A_D": 0.22872643737471401
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "meta-llama",
+      "n_models": 15,
+      "tau_A": 0.38277950117547643,
+      "tau_C": 0.787947763499926,
+      "tau_D": 0.3365540200536008,
+      "delta_A_C": -0.4051682623244496,
+      "delta_A_D": 0.04622548112187563
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "openai",
+      "n_models": 15,
+      "tau_A": 0.34786262139146906,
+      "tau_C": 0.6508140266182866,
+      "tau_D": 0.14285714285714288,
+      "delta_A_C": -0.3029514052268175,
+      "delta_A_D": 0.20500547853432619
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "qwen",
+      "n_models": 17,
+      "tau_A": 0.4833014320431392,
+      "tau_C": 0.6931032800836721,
+      "tau_D": 0.29630442547297986,
+      "delta_A_C": -0.20980184804053287,
+      "delta_A_D": 0.18699700657015933
+    },
+    {
+      "criterion": "agentic",
+      "family_left_out": "tiiuae",
+      "n_models": 14,
+      "tau_A": 0.41113649069017727,
+      "tau_C": 0.6735645239877782,
+      "tau_D": 0.21112414386792888,
+      "delta_A_C": -0.26242803329760095,
+      "delta_A_D": 0.2000123468222484
+    }
+  ]
+}

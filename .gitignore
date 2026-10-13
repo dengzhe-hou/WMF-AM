@@ -48,3 +48,14 @@ croissant.json
 
 # Temporary files
 /tmp/
+
+# Local submission preparation and private research records
+/resubmit/
+/archive/
+/.publish-*/
+/.aris/
+/.claude/
+/.pytest_cache/
+/ARR_REVIEW_*.md
+/rebuttal/
+/LOCAL_PROJECT_MAP.md

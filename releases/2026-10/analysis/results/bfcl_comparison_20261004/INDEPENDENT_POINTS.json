@@ -1,0 +1,472 @@
+{
+  "purpose": "Independent point tau-b and leave-one-family-out verification only; no additional hypotheses or inferential results",
+  "implementation": "scipy.stats.kendalltau(..., variant=\"b\").statistic; analysis/analyze.py not imported or called",
+  "scipy_version": "1.17.1",
+  "source_panel": "results/panel18_20261004/BFCL_INPUTS_20261004.csv",
+  "source_score": "results/panel18_20261004/scored/scored_items.csv",
+  "source_criterion": "freeze_draft/bfcl_criterion_19.csv",
+  "input_verification": {
+    "model_count": 18,
+    "family_count": 7,
+    "all_models_match_frozen_panel": true,
+    "probe_numerators_and_denominators_match_item_rows": true,
+    "bfcl_values_match_frozen_source": true,
+    "family_labels_match_existing_definition": true,
+    "ties": {
+      "probe": {
+        "A": {
+          "distinct_values": 15,
+          "tied_pairs": 3
+        },
+        "C": {
+          "distinct_values": 11,
+          "tied_pairs": 28
+        },
+        "D": {
+          "distinct_values": 16,
+          "tied_pairs": 2
+        }
+      },
+      "criterion": {
+        "overall": {
+          "distinct_values": 18,
+          "tied_pairs": 0
+        },
+        "multi_turn": {
+          "distinct_values": 17,
+          "tied_pairs": 1
+        },
+        "agentic": {
+          "distinct_values": 18,
+          "tied_pairs": 0
+        }
+      }
+    }
+  },
+  "point_estimates": {
+    "overall": {
+      "n": 18,
+      "tau_b": {
+        "A": 0.4488668861494257,
+        "C": 0.7158705108015654,
+        "D": 0.2697426797437369
+      },
+      "delta_A_minus_C": -0.26700362465213967,
+      "delta_A_minus_D": 0.17912420640568882
+    },
+    "multi_turn": {
+      "n": 18,
+      "tau_b": {
+        "A": 0.41722769247548885,
+        "C": 0.739985775112212,
+        "D": 0.29043062461967495
+      },
+      "delta_A_minus_C": -0.3227580826367231,
+      "delta_A_minus_D": 0.1267970678558139
+    },
+    "agentic": {
+      "n": 18,
+      "tau_b": {
+        "A": 0.4488668861494257,
+        "C": 0.6869464497590779,
+        "D": 0.2960590387431259
+      },
+      "delta_A_minus_C": -0.2380795636096522,
+      "delta_A_minus_D": 0.15280784740629982
+    }
+  },
+  "leave_one_family_out": {
+    "anthropic": {
+      "omitted_models": [
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.7019555275403673,
+            "C": 0.6908641205640272,
+            "D": 0.5167523265868932
+          },
+          "delta_A_minus_C": 0.011091406976340035,
+          "delta_A_minus_D": 0.1852032009534741
+        },
+        "multi_turn": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.6570124975650647,
+            "C": 0.7243592729269805,
+            "D": 0.5480769230769231
+          },
+          "delta_A_minus_C": -0.0673467753619158,
+          "delta_A_minus_D": 0.10893557448814162
+        },
+        "agentic": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.7019555275403673,
+            "C": 0.6508140266182866,
+            "D": 0.5550302767044407
+          },
+          "delta_A_minus_C": 0.051141500922080696,
+          "delta_A_minus_D": 0.14692525083592656
+        }
+      }
+    },
+    "cohere": {
+      "omitted_models": [
+        "Command A",
+        "Command R7B"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.4369902195443293,
+            "C": 0.7431505414602934,
+            "D": 0.25210974204480535
+          },
+          "delta_A_minus_C": -0.30616032191596404,
+          "delta_A_minus_D": 0.18488047749952397
+        },
+        "multi_turn": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.3966280032559651,
+            "C": 0.7554796568578022,
+            "D": 0.2784834916478053
+          },
+          "delta_A_minus_C": -0.3588516536018371,
+          "delta_A_minus_D": 0.11814451160815981
+        },
+        "agentic": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.4201829034080089,
+            "C": 0.7248011453748541,
+            "D": 0.3025316904537665
+          },
+          "delta_A_minus_C": -0.30461824196684517,
+          "delta_A_minus_D": 0.11765121295424241
+        }
+      }
+    },
+    "ibm-granite": {
+      "omitted_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct"
+      ],
+      "remaining_models": [
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.4304142310105583,
+            "C": 0.685248288864193,
+            "D": 0.235302425908485
+          },
+          "delta_A_minus_C": -0.25483405785363467,
+          "delta_A_minus_D": 0.19511180510207332
+        },
+        "multi_turn": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.38984450773870644,
+            "C": 0.7167931874056448,
+            "D": 0.261605704275211
+          },
+          "delta_A_minus_C": -0.32694867966693836,
+          "delta_A_minus_D": 0.12823880346349542
+        },
+        "agentic": {
+          "n": 16,
+          "tau_b": {
+            "A": 0.4304142310105583,
+            "C": 0.6471789394828489,
+            "D": 0.2016877936358443
+          },
+          "delta_A_minus_C": -0.21676470847229057,
+          "delta_A_minus_D": 0.22872643737471401
+        }
+      }
+    },
+    "meta-llama": {
+      "omitted_models": [
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.32536257599915497,
+            "C": 0.766651877999928,
+            "D": 0.2403957286097148
+          },
+          "delta_A_minus_C": -0.441289302000773,
+          "delta_A_minus_D": 0.08496684738944016
+        },
+        "multi_turn": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.2679456508228335,
+            "C": 0.766651877999928,
+            "D": 0.2403957286097148
+          },
+          "delta_A_minus_C": -0.49870622717709445,
+          "delta_A_minus_D": 0.027549922213118694
+        },
+        "agentic": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.38277950117547643,
+            "C": 0.787947763499926,
+            "D": 0.3365540200536008
+          },
+          "delta_A_minus_C": -0.4051682623244496,
+          "delta_A_minus_D": 0.04622548112187563
+        }
+      }
+    },
+    "openai": {
+      "omitted_models": [
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.34786262139146906,
+            "C": 0.6908641205640272,
+            "D": 0.10476190476190476
+          },
+          "delta_A_minus_C": -0.3430014991725582,
+          "delta_A_minus_D": 0.24310071662956428
+        },
+        "multi_turn": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.3592402322885356,
+            "C": 0.7243592729269805,
+            "D": 0.13397282541141675
+          },
+          "delta_A_minus_C": -0.36511904063844497,
+          "delta_A_minus_D": 0.22526740687711883
+        },
+        "agentic": {
+          "n": 15,
+          "tau_b": {
+            "A": 0.34786262139146906,
+            "C": 0.6508140266182866,
+            "D": 0.14285714285714288
+          },
+          "delta_A_minus_C": -0.3029514052268175,
+          "delta_A_minus_D": 0.20500547853432619
+        }
+      }
+    },
+    "qwen": {
+      "omitted_models": [
+        "Qwen3-4B-Instruct-2507"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 17,
+          "tau_b": {
+            "A": 0.5279138719240444,
+            "C": 0.7426106572325056,
+            "D": 0.2814892041993309
+          },
+          "delta_A_minus_C": -0.21469678530846126,
+          "delta_A_minus_D": 0.2464246677247135
+        },
+        "multi_turn": {
+          "n": 17,
+          "tau_b": {
+            "A": 0.4925510291236095,
+            "C": 0.7702011922499276,
+            "D": 0.3048348201094049
+          },
+          "delta_A_minus_C": -0.2776501631263181,
+          "delta_A_minus_D": 0.1877162090142046
+        },
+        "agentic": {
+          "n": 17,
+          "tau_b": {
+            "A": 0.4833014320431392,
+            "C": 0.6931032800836721,
+            "D": 0.29630442547297986
+          },
+          "delta_A_minus_C": -0.20980184804053287,
+          "delta_A_minus_D": 0.18699700657015933
+        }
+      }
+    },
+    "tiiuae": {
+      "omitted_models": [
+        "Falcon3-1B-Instruct",
+        "Falcon3-3B-Instruct",
+        "Falcon3-7B-Instruct",
+        "Falcon3-10B-Instruct"
+      ],
+      "remaining_models": [
+        "Granite-4.0-350m",
+        "Granite-3.1-8B-Instruct",
+        "Llama-3.2-1B-Instruct",
+        "Llama-3.2-3B-Instruct",
+        "Llama-3.3-70B-Instruct",
+        "Qwen3-4B-Instruct-2507",
+        "GPT-5.2",
+        "GPT-4.1",
+        "GPT-4.1-mini",
+        "Claude Haiku 4.5",
+        "Claude Sonnet 4.5",
+        "Claude Opus 4.5",
+        "Command A",
+        "Command R7B"
+      ],
+      "statistics": {
+        "overall": {
+          "n": 14,
+          "tau_b": {
+            "A": 0.38891289659881634,
+            "C": 0.6999788190461225,
+            "D": 0.2333477379592898
+          },
+          "delta_A_minus_C": -0.31106592244730613,
+          "delta_A_minus_D": 0.15556515863952652
+        },
+        "multi_turn": {
+          "n": 14,
+          "tau_b": {
+            "A": 0.3444657084160945,
+            "C": 0.7263931141044667,
+            "D": 0.25557133205065075
+          },
+          "delta_A_minus_C": -0.38192740568837225,
+          "delta_A_minus_D": 0.08889437636544373
+        },
+        "agentic": {
+          "n": 14,
+          "tau_b": {
+            "A": 0.41113649069017727,
+            "C": 0.6735645239877782,
+            "D": 0.21112414386792888
+          },
+          "delta_A_minus_C": -0.26242803329760095,
+          "delta_A_minus_D": 0.2000123468222484
+        }
+      }
+    }
+  }
+}

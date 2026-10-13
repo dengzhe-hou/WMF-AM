@@ -1,0 +1,2 @@
+claude-sonnet-4-5-20250929: bank=5 done=0 to_run=5
+claude-sonnet-4-5-20250929: finished=5 missing=0 int_items=5 correct_last_int=3 not_bare_number=2 finish_reason_length=2

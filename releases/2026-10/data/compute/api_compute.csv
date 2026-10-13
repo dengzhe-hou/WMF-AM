@@ -1,0 +1,9 @@
+category,records,cost_records,error_records,cost_usd,prompt_tokens,completion_tokens,records_with_attempts_gt1,unitemized_internal_retry_attempts
+hosted_70b_diagnostics,126,124,2,0.002559090,17774,399,9,18
+intermediate_multitarget,1620,1620,0,0.9992773000,383960,22945,0,0
+intermediate_multitarget_preflight,45,45,0,0.0072002625,2783,179,0,0
+large_budget,480,480,0,0.4958223750,63893,19237,0,0
+large_budget_hosted_70b,67,60,7,0.001694365,9339,1084,20,41
+main,6720,6720,0,4.0246491625,1292348,133853,2,2
+main_preflight,40,40,0,0.0069887375,2468,158,0,0
+retired_control_block,800,800,0,0.1040317500,21113,5505,0,0

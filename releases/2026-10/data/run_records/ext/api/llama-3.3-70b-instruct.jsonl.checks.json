@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-04T16:19:23.911935+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/ext/api/provenance/llama-3.3-70b-instruct.endpoints.20261004T161827Z.json",
+  "records": "/path/to/repo/results/ext/api/llama-3.3-70b-instruct.jsonl",
+  "bank": "/path/to/repo/ext/ext_bank_hosted70b.jsonl",
+  "request_model": "meta-llama/llama-3.3-70b-instruct",
+  "canonical_model": "meta-llama/llama-3.3-70b-instruct",
+  "provider": "Novita",
+  "checks": {
+    "endpoint request id == 'meta-llama/llama-3.3-70b-instruct'": true,
+    "original provider endpoint exists (Novita)": true,
+    "original provider endpoints map to 'meta-llama/llama-3.3-70b-instruct'": true,
+    "every bank item has exactly one final record (180 items)": true,
+    "request_model == 'meta-llama/llama-3.3-70b-instruct'": true,
+    "provider == 'Novita'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

@@ -1,0 +1,7 @@
+model,run_label,family,A_n,A_correct,A_one_integer,A_truncated,C_n,C_correct,C_one_integer,C_truncated,D_n,D_correct,D_one_integer,D_truncated,H_correct,H_truncated,I_correct,I_truncated,bfcl_overall,bfcl_multi_turn,bfcl_agentic
+GPT-5.2,gpt-5.2-2025-12-11,openai,60,56,60,0,90,90,90,0,100,99,100,0,57,0,60,0,55.87,28.12,60.65
+GPT-4.1,gpt-4.1-2025-04-14,openai,60,49,60,0,90,90,90,0,100,99,100,0,55,0,60,0,53.96,38.88,45.94
+GPT-4.1-mini,gpt-4.1-mini-2025-04-14,openai,60,36,60,0,90,90,90,0,100,100,100,0,39,0,60,0,50.45,34.13,41.94
+Claude Haiku 4.5,claude-haiku-4-5-20251001,anthropic,60,39,60,0,90,90,90,0,100,100,100,0,41,0,60,0,68.7,53.62,68.95
+Claude Sonnet 4.5,claude-sonnet-4-5-20250929,anthropic,60,0,0,60,90,90,90,0,100,3,3,98,11,48,60,0,73.24,61.37,72.97
+Claude Opus 4.5,claude-opus-4-5-20251101,anthropic,60,14,15,45,90,90,90,0,100,39,39,63,52,0,60,0,77.47,68.38,79.13

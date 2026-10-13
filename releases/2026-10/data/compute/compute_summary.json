@@ -1,0 +1,210 @@
+{
+  "scope": "October 2026 experiments experiments. Started allocations ran October 3 through October 5. Scheduler records were queried on October 13.",
+  "method": "Sum elapsed allocation seconds times actual allocated GPU count, divided by 3600. Count each scheduler allocation once; do not add step records. MIG instance-hours are separate from whole-GPU-hours.",
+  "started_allocations": 42,
+  "cancelled_without_allocation": 3,
+  "local_totals": {
+    "MIG_instance_hours": {
+      "jobs": 38,
+      "device_seconds": 6728,
+      "hours": 1.8688888888888888
+    },
+    "whole_GPU_hours": {
+      "jobs": 4,
+      "device_seconds": 6606,
+      "hours": 1.835
+    }
+  },
+  "local_groups": [
+    {
+      "category": "full_pipeline_pilot",
+      "unit": "MIG_instance_hours",
+      "job_count": 1,
+      "wall_seconds_sum": 541,
+      "allocated_device_seconds": 541,
+      "hours": 0.1502777777777778
+    },
+    {
+      "category": "failed_or_stopped_main_attempt",
+      "unit": "MIG_instance_hours",
+      "job_count": 2,
+      "wall_seconds_sum": 181,
+      "allocated_device_seconds": 181,
+      "hours": 0.050277777777777775
+    },
+    {
+      "category": "final_main",
+      "unit": "MIG_instance_hours",
+      "job_count": 9,
+      "wall_seconds_sum": 3222,
+      "allocated_device_seconds": 3222,
+      "hours": 0.895
+    },
+    {
+      "category": "failed_or_stopped_main_attempt",
+      "unit": "whole_GPU_hours",
+      "job_count": 1,
+      "wall_seconds_sum": 1909,
+      "allocated_device_seconds": 3818,
+      "hours": 1.0605555555555555
+    },
+    {
+      "category": "communication_diagnostics",
+      "unit": "whole_GPU_hours",
+      "job_count": 2,
+      "wall_seconds_sum": 232,
+      "allocated_device_seconds": 464,
+      "hours": 0.1288888888888889
+    },
+    {
+      "category": "final_main",
+      "unit": "whole_GPU_hours",
+      "job_count": 1,
+      "wall_seconds_sum": 1162,
+      "allocated_device_seconds": 2324,
+      "hours": 0.6455555555555555
+    },
+    {
+      "category": "echo_diagnostics",
+      "unit": "MIG_instance_hours",
+      "job_count": 5,
+      "wall_seconds_sum": 256,
+      "allocated_device_seconds": 256,
+      "hours": 0.07111111111111111
+    },
+    {
+      "category": "cancelled_before_allocation",
+      "unit": "none",
+      "job_count": 3,
+      "wall_seconds_sum": 0,
+      "allocated_device_seconds": 0,
+      "hours": 0.0
+    },
+    {
+      "category": "superseded_intermediate_multitarget",
+      "unit": "MIG_instance_hours",
+      "job_count": 3,
+      "wall_seconds_sum": 392,
+      "allocated_device_seconds": 392,
+      "hours": 0.10888888888888888
+    },
+    {
+      "category": "final_intermediate_multitarget",
+      "unit": "MIG_instance_hours",
+      "job_count": 9,
+      "wall_seconds_sum": 1208,
+      "allocated_device_seconds": 1208,
+      "hours": 0.33555555555555555
+    },
+    {
+      "category": "final_large_budget",
+      "unit": "MIG_instance_hours",
+      "job_count": 9,
+      "wall_seconds_sum": 928,
+      "allocated_device_seconds": 928,
+      "hours": 0.2577777777777778
+    }
+  ],
+  "api_totals": {
+    "records": 9898,
+    "cost_records": 9889,
+    "error_records": 9,
+    "cost_usd": "5.6422230425",
+    "prompt_tokens": 1793678,
+    "completion_tokens": 183360,
+    "records_with_attempts_gt1": 31,
+    "unitemized_internal_retry_attempts": 61
+  },
+  "api_groups": {
+    "hosted_70b_diagnostics": {
+      "records": 126,
+      "cost_records": 124,
+      "error_records": 2,
+      "cost_usd": "0.002559090",
+      "prompt_tokens": 17774,
+      "completion_tokens": 399,
+      "records_with_attempts_gt1": 9,
+      "unitemized_internal_retry_attempts": 18
+    },
+    "intermediate_multitarget": {
+      "records": 1620,
+      "cost_records": 1620,
+      "error_records": 0,
+      "cost_usd": "0.9992773000",
+      "prompt_tokens": 383960,
+      "completion_tokens": 22945,
+      "records_with_attempts_gt1": 0,
+      "unitemized_internal_retry_attempts": 0
+    },
+    "intermediate_multitarget_preflight": {
+      "records": 45,
+      "cost_records": 45,
+      "error_records": 0,
+      "cost_usd": "0.0072002625",
+      "prompt_tokens": 2783,
+      "completion_tokens": 179,
+      "records_with_attempts_gt1": 0,
+      "unitemized_internal_retry_attempts": 0
+    },
+    "large_budget": {
+      "records": 480,
+      "cost_records": 480,
+      "error_records": 0,
+      "cost_usd": "0.4958223750",
+      "prompt_tokens": 63893,
+      "completion_tokens": 19237,
+      "records_with_attempts_gt1": 0,
+      "unitemized_internal_retry_attempts": 0
+    },
+    "large_budget_hosted_70b": {
+      "records": 67,
+      "cost_records": 60,
+      "error_records": 7,
+      "cost_usd": "0.001694365",
+      "prompt_tokens": 9339,
+      "completion_tokens": 1084,
+      "records_with_attempts_gt1": 20,
+      "unitemized_internal_retry_attempts": 41
+    },
+    "main": {
+      "records": 6720,
+      "cost_records": 6720,
+      "error_records": 0,
+      "cost_usd": "4.0246491625",
+      "prompt_tokens": 1292348,
+      "completion_tokens": 133853,
+      "records_with_attempts_gt1": 2,
+      "unitemized_internal_retry_attempts": 2
+    },
+    "main_preflight": {
+      "records": 40,
+      "cost_records": 40,
+      "error_records": 0,
+      "cost_usd": "0.0069887375",
+      "prompt_tokens": 2468,
+      "completion_tokens": 158,
+      "records_with_attempts_gt1": 0,
+      "unitemized_internal_retry_attempts": 0
+    },
+    "retired_control_block": {
+      "records": 800,
+      "cost_records": 800,
+      "error_records": 0,
+      "cost_usd": "0.1040317500",
+      "prompt_tokens": 21113,
+      "completion_tokens": 5505,
+      "records_with_attempts_gt1": 0,
+      "unitemized_internal_retry_attempts": 0
+    }
+  },
+  "limitations": [
+    "Allocation time includes setup, model loading, preflight checks, execution and shutdown, rather than measuring active GPU kernel time.",
+    "The totals include the full-pipeline pilot, failed and stopped main attempts, echo and communication diagnostics, superseded query-bank runs, and final main, extension and large-budget runs.",
+    "The main run allocations included a subsequently retired control block. Its cost remains in the total compute accounting although it is absent from the final evaluation.",
+    "The figures cover the present October experiments. They do not estimate compute for the earlier exploratory work, model pretraining, or public BFCL evaluations, which were not rerun.",
+    "Offline CPU work for generation, scoring, analysis, environment setup, packaging and manuscript preparation was not timed.",
+    "API sums use returned usage fields, not invoice totals or provider GPU hours. Provider hardware and GPU hours are not exposed.",
+    "Nine saved HTTP-error records have no usage fields. Early authentication failures and some internal retry attempts have no separate usage records.",
+    "No provider response identifiers were retained. Original run folders are read once, and identical saved records are directly deduplicated; genuine repeated probes at different timestamps are kept."
+  ]
+}

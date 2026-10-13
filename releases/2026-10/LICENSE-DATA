@@ -1,0 +1,16 @@
+Data, figures and documentation
+
+Copyright (c) 2026 Anonymous Authors
+
+Except for the third-party material listed in NOTICE, the data, figures and
+documentation in this package are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+This covers data/, analysis/results/, analysis/paper/tables/,
+analysis/paper/figures/, analysis/paper/model_provenance.json,
+external/model_metadata/ and README.md.
+
+Licence deed:  https://creativecommons.org/licenses/by/4.0/
+Legal code:    https://creativecommons.org/licenses/by/4.0/legalcode
+
+Code in this package is licensed separately under the MIT License; see LICENSE.

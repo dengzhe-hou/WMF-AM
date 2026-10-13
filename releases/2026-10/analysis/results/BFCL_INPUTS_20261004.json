@@ -1,0 +1,38 @@
+{
+  "purpose": "Descriptive input alignment only; no association statistic or primary-column selection",
+  "n_models": 18,
+  "source_rows": 15120,
+  "excluded_as_already_approved": [
+    "MiniCPM3-4B"
+  ],
+  "family_definition": "Existing analysis.py convention: HF organization for local; provider for API",
+  "family_counts": {
+    "ibm-granite": 2,
+    "meta-llama": 3,
+    "tiiuae": 4,
+    "qwen": 1,
+    "openai": 3,
+    "anthropic": 3,
+    "cohere": 2
+  },
+  "kind_counts": {
+    "open": 10,
+    "api": 8
+  },
+  "parameter_count_available": 12,
+  "parameter_count_missing": [
+    "GPT-5.2",
+    "GPT-4.1",
+    "GPT-4.1-mini",
+    "Claude Haiku 4.5",
+    "Claude Sonnet 4.5",
+    "Claude Opus 4.5"
+  ],
+  "bfcl_snapshot": "2025-12-16; frozen source scores on a 0-100 scale",
+  "probe_scale": "A/C/D accuracy 0-1; all denominators retained",
+  "pending": [
+    "E/F final scoring",
+    "BFCL primary column or parallel reporting",
+    "inference and strata specification"
+  ]
+}

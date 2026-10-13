@@ -1,0 +1,87 @@
+{
+  "label": "falcon3-10b-instruct",
+  "hf_repo": "tiiuae/Falcon3-10B-Instruct",
+  "revision_requested": "8799bc6aec0152757221dc6b272d824642db6202",
+  "revision_resolved": [
+    "8799bc6aec0152757221dc6b272d824642db6202"
+  ],
+  "serve_command": "VLLM_USE_FLASHINFER_SAMPLER=0 CUDA_HOME=/path/to/conda_env/targets/x86_64-linux CUDA_VISIBLE_DEVICES=0 vllm serve tiiuae/Falcon3-10B-Instruct --revision 8799bc6aec0152757221dc6b272d824642db6202 --served-model-name falcon3-10b-instruct --dtype bfloat16 --generation-config vllm --max-model-len 4096 --gpu-memory-utilization 0.90 --seed 0 --host 127.0.0.1 --port 8080 > logs/vllm_falcon3-10b-instruct.log 2>&1 &",
+  "vllm_non_default_args": "(APIServer pid=1630974) INFO MM-DD hh:mm:ss [api_utils.py:286] non-default args: {'model_tag': 'tiiuae/Falcon3-10B-Instruct', 'host': '127.0.0.1', 'port': 8080, 'model': 'tiiuae/Falcon3-10B-Instruct', 'dtype': 'bfloat16', 'revision': '8799bc6aec0152757221dc6b272d824642db6202', 'max_model_len': 4096, 'served_model_name': ['falcon3-10b-instruct'], 'generation_config': 'vllm', 'gpu_memory_utilization': 0.9}",
+  "vllm_version": "0.30.0",
+  "vllm_build": "pypi-cuda13.0",
+  "torch_version": "2.13.0+cu130",
+  "cuda_version": "13.0",
+  "transformers_version": "5.18.0",
+  "python_version": "3.13.12",
+  "gpu": [
+    "index, name, memory.total [MiB], memory.used [MiB], driver_version",
+    "0, NVIDIA A100 80GB PCIe, 81920 MiB, 3295 MiB, 595.58.03"
+  ],
+  "gpu_type": [
+    "NVIDIA A100 80GB PCIe"
+  ],
+  "mig_profile": [
+    "4g.40gb"
+  ],
+  "nvidia_smi_L": [
+    "GPU 0: NVIDIA A100 80GB PCIe (UUID: GPU-REDACTED)",
+    "  MIG 4g.40gb     Device  0: (UUID: MIG-REDACTED)"
+  ],
+  "gpus_used": "0",
+  "cuda_visible_devices_from_slurm": "MIG-REDACTED",
+  "tensor_parallel_size": 1,
+  "gpu_memory_utilization": 0.9,
+  "dtype": "bfloat16",
+  "quantization": "none",
+  "sampling": "temperature 0, max_tokens taken from each bank item and 16 for the smoke items, generation-config vllm, seed 0, concurrency 1",
+  "chat_template_source": "the repo's own tokenizer chat template, no override",
+  "rendered_prompt_files": [
+    "manifest/falcon3-10b-instruct.rendered_prompt.txt",
+    "manifest/falcon3-10b-instruct.rendered_prompt_system.txt"
+  ],
+  "load_seconds": 80,
+  "smoke_started_utc": "2026-10-05T14:21:54Z",
+  "run_started_utc": "2026-10-05T14:21:55Z",
+  "run_finished_utc": "2026-10-05T14:22:02Z",
+  "smoke_result": {
+    "S1": "pass",
+    "S2": "pass",
+    "S3": "pass",
+    "S4": "pass",
+    "S5": "pass",
+    "S6": "pass"
+  },
+  "runner_summary_lines": [
+    "falcon3-10b-instruct: finished=60 missing=0 int_items=60 correct_last_int=20 not_bare_number=0 finish_reason_length=0"
+  ],
+  "n_items_final": 60,
+  "n_items_missing": 0,
+  "runner_exit_code": 0,
+  "n_invocations": 1,
+  "local_run": {
+    "node": "node-a",
+    "port": 8080,
+    "bundle": "/path/to/repo/frozen/wmf_am_server_bundle_20261003.tar.gz",
+    "environment": {
+      "VLLM_USE_FLASHINFER_SAMPLER": "0",
+      "CUDA_HOME": "/path/to/conda_env/targets/x86_64-linux",
+      "OMP_NUM_THREADS": "4",
+      "HF_HUB_CACHE": "/path/to/hf_cache",
+      "HF_HUB_OFFLINE": "1",
+      "NCCL_P2P_DISABLE": null,
+      "NCCL_DEBUG": null,
+      "VLLM_SKIP_P2P_CHECK": null
+    },
+    "tp_check": null,
+    "attention_backend_lines": [
+      "Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'FLASHINFER', 'TRITON_ATTN', 'FLEX_ATTENTION']."
+    ]
+  },
+  "deviations": [
+    "5A download done beforehand by localrun/download_models.sh into HF_HUB_CACHE=/path/to/hf_cache; the job runs with HF_HUB_OFFLINE=1",
+    "OMP_NUM_THREADS=4 (torch on this cluster crashes with more; job has 2 CPUs)",
+    "CUDA_HOME=/path/to/conda_env/targets/x86_64-linux set as in Job N's successful attempt; the run protocol sets only VLLM_USE_FLASHINFER_SAMPLER=0. Neither changes greedy outputs.",
+    "paths: ~/wmf_am is /path/to/repo/results/budget_20261005/open/falcon3-10b-instruct, venv is /path/to/venv (vLLM 0.30.0, PyPI CUDA 13.0 build)",
+    "5B port 8080 instead of 8000 (up to two servers share node-a; port = 8000 + 10 x array index, first free)"
+  ]
+}

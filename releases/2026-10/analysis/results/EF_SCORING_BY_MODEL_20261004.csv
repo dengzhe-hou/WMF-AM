@@ -1,0 +1,109 @@
+model,source,group,n_scored,n_changed,submitted_correct_strict_wrong,submitted_wrong_strict_correct,n_correct_submitted,n_correct_candidate
+falcon3-10b-instruct,local,E whole block,90,0,0,0,89,89
+falcon3-10b-instruct,local,F whole block,90,0,0,0,50,50
+falcon3-10b-instruct,local,F schedule numeric items,30,0,0,0,5,5
+falcon3-10b-instruct,local,F set items total,60,0,0,0,45,45
+falcon3-10b-instruct,local,of which permissions,30,0,0,0,21,21
+falcon3-10b-instruct,local,of which inventory,30,0,0,0,24,24
+falcon3-1b-instruct,local,E whole block,90,1,1,0,50,49
+falcon3-1b-instruct,local,F whole block,90,0,0,0,6,6
+falcon3-1b-instruct,local,F schedule numeric items,30,0,0,0,1,1
+falcon3-1b-instruct,local,F set items total,60,0,0,0,5,5
+falcon3-1b-instruct,local,of which permissions,30,0,0,0,3,3
+falcon3-1b-instruct,local,of which inventory,30,0,0,0,2,2
+falcon3-3b-instruct,local,E whole block,90,0,0,0,83,83
+falcon3-3b-instruct,local,F whole block,90,1,1,0,32,31
+falcon3-3b-instruct,local,F schedule numeric items,30,0,0,0,7,7
+falcon3-3b-instruct,local,F set items total,60,1,1,0,25,24
+falcon3-3b-instruct,local,of which permissions,30,1,1,0,14,13
+falcon3-3b-instruct,local,of which inventory,30,0,0,0,11,11
+falcon3-7b-instruct,local,E whole block,90,0,0,0,90,90
+falcon3-7b-instruct,local,F whole block,90,0,0,0,44,44
+falcon3-7b-instruct,local,F schedule numeric items,30,0,0,0,10,10
+falcon3-7b-instruct,local,F set items total,60,0,0,0,34,34
+falcon3-7b-instruct,local,of which permissions,30,0,0,0,19,19
+falcon3-7b-instruct,local,of which inventory,30,0,0,0,15,15
+granite-3.1-8b-instruct,local,E whole block,90,0,0,0,84,84
+granite-3.1-8b-instruct,local,F whole block,90,0,0,0,41,41
+granite-3.1-8b-instruct,local,F schedule numeric items,30,0,0,0,9,9
+granite-3.1-8b-instruct,local,F set items total,60,0,0,0,32,32
+granite-3.1-8b-instruct,local,of which permissions,30,0,0,0,17,17
+granite-3.1-8b-instruct,local,of which inventory,30,0,0,0,15,15
+granite-4.0-350m,local,E whole block,90,0,0,0,53,53
+granite-4.0-350m,local,F whole block,90,0,0,0,11,11
+granite-4.0-350m,local,F schedule numeric items,30,0,0,0,6,6
+granite-4.0-350m,local,F set items total,60,0,0,0,5,5
+granite-4.0-350m,local,of which permissions,30,0,0,0,3,3
+granite-4.0-350m,local,of which inventory,30,0,0,0,2,2
+llama-3.2-1b-instruct,local,E whole block,90,0,0,0,50,50
+llama-3.2-1b-instruct,local,F whole block,90,0,0,0,24,24
+llama-3.2-1b-instruct,local,F schedule numeric items,30,0,0,0,14,14
+llama-3.2-1b-instruct,local,F set items total,60,0,0,0,10,10
+llama-3.2-1b-instruct,local,of which permissions,30,0,0,0,5,5
+llama-3.2-1b-instruct,local,of which inventory,30,0,0,0,5,5
+llama-3.2-3b-instruct,local,E whole block,90,0,0,0,90,90
+llama-3.2-3b-instruct,local,F whole block,90,4,4,0,42,38
+llama-3.2-3b-instruct,local,F schedule numeric items,30,0,0,0,10,10
+llama-3.2-3b-instruct,local,F set items total,60,4,4,0,32,28
+llama-3.2-3b-instruct,local,of which permissions,30,4,4,0,16,12
+llama-3.2-3b-instruct,local,of which inventory,30,0,0,0,16,16
+llama-3.3-70b-instruct,local,E whole block,90,0,0,0,90,90
+llama-3.3-70b-instruct,local,F whole block,90,0,0,0,64,64
+llama-3.3-70b-instruct,local,F schedule numeric items,30,0,0,0,8,8
+llama-3.3-70b-instruct,local,F set items total,60,0,0,0,56,56
+llama-3.3-70b-instruct,local,of which permissions,30,0,0,0,26,26
+llama-3.3-70b-instruct,local,of which inventory,30,0,0,0,30,30
+qwen3-4b-instruct-2507,local,E whole block,90,0,0,0,87,87
+qwen3-4b-instruct-2507,local,F whole block,90,0,0,0,49,49
+qwen3-4b-instruct-2507,local,F schedule numeric items,30,0,0,0,4,4
+qwen3-4b-instruct-2507,local,F set items total,60,0,0,0,45,45
+qwen3-4b-instruct-2507,local,of which permissions,30,0,0,0,19,19
+qwen3-4b-instruct-2507,local,of which inventory,30,0,0,0,26,26
+claude-haiku-4-5-20251001,api,E whole block,90,0,0,0,90,90
+claude-haiku-4-5-20251001,api,F whole block,90,0,0,0,67,67
+claude-haiku-4-5-20251001,api,F schedule numeric items,30,0,0,0,14,14
+claude-haiku-4-5-20251001,api,F set items total,60,0,0,0,53,53
+claude-haiku-4-5-20251001,api,of which permissions,30,0,0,0,25,25
+claude-haiku-4-5-20251001,api,of which inventory,30,0,0,0,28,28
+claude-opus-4-5-20251101,api,E whole block,90,0,0,0,90,90
+claude-opus-4-5-20251101,api,F whole block,90,0,0,0,74,74
+claude-opus-4-5-20251101,api,F schedule numeric items,30,0,0,0,15,15
+claude-opus-4-5-20251101,api,F set items total,60,0,0,0,59,59
+claude-opus-4-5-20251101,api,of which permissions,30,0,0,0,29,29
+claude-opus-4-5-20251101,api,of which inventory,30,0,0,0,30,30
+claude-sonnet-4-5-20250929,api,E whole block,90,0,0,0,77,77
+claude-sonnet-4-5-20250929,api,F whole block,90,0,0,0,65,65
+claude-sonnet-4-5-20250929,api,F schedule numeric items,30,0,0,0,15,15
+claude-sonnet-4-5-20250929,api,F set items total,60,0,0,0,50,50
+claude-sonnet-4-5-20250929,api,of which permissions,30,0,0,0,28,28
+claude-sonnet-4-5-20250929,api,of which inventory,30,0,0,0,22,22
+command-a-03-2025,api,E whole block,90,0,0,0,90,90
+command-a-03-2025,api,F whole block,90,0,0,0,61,61
+command-a-03-2025,api,F schedule numeric items,30,0,0,0,14,14
+command-a-03-2025,api,F set items total,60,0,0,0,47,47
+command-a-03-2025,api,of which permissions,30,0,0,0,23,23
+command-a-03-2025,api,of which inventory,30,0,0,0,24,24
+command-r7b-12-2024,api,E whole block,90,0,0,0,76,76
+command-r7b-12-2024,api,F whole block,90,1,1,0,29,28
+command-r7b-12-2024,api,F schedule numeric items,30,0,0,0,11,11
+command-r7b-12-2024,api,F set items total,60,1,1,0,18,17
+command-r7b-12-2024,api,of which permissions,30,1,1,0,8,7
+command-r7b-12-2024,api,of which inventory,30,0,0,0,10,10
+gpt-4.1-2025-04-14,api,E whole block,90,0,0,0,90,90
+gpt-4.1-2025-04-14,api,F whole block,90,0,0,0,71,71
+gpt-4.1-2025-04-14,api,F schedule numeric items,30,0,0,0,11,11
+gpt-4.1-2025-04-14,api,F set items total,60,0,0,0,60,60
+gpt-4.1-2025-04-14,api,of which permissions,30,0,0,0,30,30
+gpt-4.1-2025-04-14,api,of which inventory,30,0,0,0,30,30
+gpt-4.1-mini-2025-04-14,api,E whole block,90,0,0,0,89,89
+gpt-4.1-mini-2025-04-14,api,F whole block,90,0,0,0,73,73
+gpt-4.1-mini-2025-04-14,api,F schedule numeric items,30,0,0,0,15,15
+gpt-4.1-mini-2025-04-14,api,F set items total,60,0,0,0,58,58
+gpt-4.1-mini-2025-04-14,api,of which permissions,30,0,0,0,29,29
+gpt-4.1-mini-2025-04-14,api,of which inventory,30,0,0,0,29,29
+gpt-5.2-2025-12-11,api,E whole block,90,0,0,0,90,90
+gpt-5.2-2025-12-11,api,F whole block,90,0,0,0,74,74
+gpt-5.2-2025-12-11,api,F schedule numeric items,30,0,0,0,15,15
+gpt-5.2-2025-12-11,api,F set items total,60,0,0,0,59,59
+gpt-5.2-2025-12-11,api,of which permissions,30,0,0,0,29,29
+gpt-5.2-2025-12-11,api,of which inventory,30,0,0,0,30,30

@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-05T14:17:56.970816+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/budget_20261005/api/provenance/command-r7b-12-2024.endpoints.20261005T141526Z.json",
+  "records": "/path/to/repo/results/budget_20261005/api/command-r7b-12-2024.jsonl",
+  "bank": "/path/to/repo/budget_20261005/budget_bank.jsonl",
+  "request_model": "cohere/command-r7b-12-2024",
+  "canonical_model": "cohere/command-r7b-12-2024",
+  "provider": "Cohere",
+  "checks": {
+    "endpoint request id == 'cohere/command-r7b-12-2024'": true,
+    "original provider endpoint exists (Cohere)": true,
+    "original provider endpoints map to 'cohere/command-r7b-12-2024'": true,
+    "every bank item has exactly one final record (60 items)": true,
+    "request_model == 'cohere/command-r7b-12-2024'": true,
+    "provider == 'Cohere'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

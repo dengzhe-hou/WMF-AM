@@ -1,0 +1,5 @@
+5A download done beforehand by localrun/download_models.sh into HF_HUB_CACHE=/path/to/hf_cache; the job runs with HF_HUB_OFFLINE=1
+OMP_NUM_THREADS=4 (torch on this cluster crashes with more; job has 4 CPUs)
+CUDA_HOME=/path/to/conda_env/targets/x86_64-linux set as in Job N's successful attempt; the run protocol sets only VLLM_USE_FLASHINFER_SAMPLER=0. Neither changes greedy outputs.
+paths: ~/wmf_am is /path/to/repo/results/ext/open/falcon3-1b-instruct, venv is /path/to/venv (vLLM 0.30.0, PyPI CUDA 13.0 build)
+5B port 8010 instead of 8000 (up to two servers share node-a; port = 8000 + 10 x array index, first free)

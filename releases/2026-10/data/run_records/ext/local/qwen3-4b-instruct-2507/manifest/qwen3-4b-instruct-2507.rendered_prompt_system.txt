@@ -1,0 +1,17 @@
+<|im_start|>system
+You are a precise arithmetic assistant. You track numerical state changes and report final values. Always respond with only the requested number, no explanation.<|im_end|>
+<|im_start|>user
+Track the following point updates carefully.
+
+Initial state:
+Leo: 15 points, James: 18 points, Carol: 15 points
+
+Operations (apply in order):
+  1. Carol gives 2 points to Leo.
+  2. Leo loses 2 points.
+  3. Leo loses 3 points.
+
+Question: After all operations, how many points does Leo have?
+
+Answer with ONLY the number.<|im_end|>
+<|im_start|>assistant

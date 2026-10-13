@@ -1,0 +1,13 @@
+llama-3.3-70b-instruct: bank=60 done=0 to_run=60
+  MISSING A512-k3-s200-p1: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k3-s300-p4: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k3-s300-p7: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k5-s100-p0: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k5-s100-p1: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k5-s100-p3: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A512-k5-s100-p2: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  50/60
+llama-3.3-70b-instruct: finished=53 missing=7 int_items=53 correct_last_int=32 not_bare_number=4 finish_reason_length=0
+7 bank items have no final record yet; rerun the same command to resume.
+llama-3.3-70b-instruct: bank=60 done=53 to_run=7
+llama-3.3-70b-instruct: finished=7 missing=0 int_items=7 correct_last_int=3 not_bare_number=2 finish_reason_length=0

@@ -1,0 +1,37 @@
+panel,adjustment,statistic,criterion,comparison,n_models,delta_tau_b,ci95_low,ci95_high,boot_valid,boot_undefined
+all18,none,raw Kendall tau-b,overall,A-C,18,-0.26700362465213967,-0.660853638613696,0.09355742478233157,10000,0
+all18,none,raw Kendall tau-b,overall,A-D,18,0.17912420640568882,-0.09230907921882286,0.5018258012269085,10000,0
+all18,none,raw Kendall tau-b,multi_turn,A-C,18,-0.3227580826367231,-0.6960668026162004,0.024316807459568133,10000,0
+all18,none,raw Kendall tau-b,multi_turn,A-D,18,0.1267970678558139,-0.14170995093866043,0.4450337351848302,10000,0
+all18,none,raw Kendall tau-b,agentic,A-C,18,-0.2380795636096522,-0.6311076243667522,0.1120742929219961,10000,0
+all18,none,raw Kendall tau-b,agentic,A-D,18,0.15280784740629982,-0.1371840402470391,0.47419717487189506,10000,0
+all18,single_turn,Kendall tau-b on rank residuals,overall,A-C,18,0.0392156862745098,-0.3172413793103448,0.5,9999,1
+all18,single_turn,Kendall tau-b on rank residuals,overall,A-D,18,0.18300653594771243,-0.09793657047178174,0.5170068027210885,9999,1
+all18,single_turn,Kendall tau-b on rank residuals,multi_turn,A-C,18,0.01307189542483661,-0.32190970793911966,0.4823306431890438,9996,4
+all18,single_turn,Kendall tau-b on rank residuals,multi_turn,A-D,18,0.15686274509803924,-0.13710439300897495,0.4794520547945205,9996,4
+all18,single_turn,Kendall tau-b on rank residuals,agentic,A-C,18,0.11764705882352944,-0.2857632093933464,0.5205624155894268,10000,0
+all18,single_turn,Kendall tau-b on rank residuals,agentic,A-D,18,0.13071895424836605,-0.18181818181818177,0.4551724137931034,10000,0
+known_params12,none,raw Kendall tau-b,overall,A-C,12,-0.07229835947648378,-0.5172413793103448,0.28091271285934627,10000,0
+known_params12,none,raw Kendall tau-b,overall,A-D,12,0.22010853363186111,-0.29766129190991697,0.8135693370132698,10000,0
+known_params12,none,raw Kendall tau-b,multi_turn,A-C,12,-0.10350188232605928,-0.5353436118838061,0.21398788295621274,10000,0
+known_params12,none,raw Kendall tau-b,multi_turn,A-D,12,0.1914966943101229,-0.29775555128767905,0.7336915782723532,10000,0
+known_params12,none,raw Kendall tau-b,agentic,A-C,12,-0.011227877821237797,-0.4,0.3050847457627119,10000,0
+known_params12,none,raw Kendall tau-b,agentic,A-D,12,0.1595024730258005,-0.39717061233221834,0.7019530239661965,10000,0
+known_params12,single_turn,Kendall tau-b on rank residuals,overall,A-C,12,0.4242424242424242,-0.23728813559322032,1.0491803278688525,9125,875
+known_params12,single_turn,Kendall tau-b on rank residuals,overall,A-D,12,0.2727272727272727,-0.3934426229508198,0.8666666666666667,9539,461
+known_params12,single_turn,Kendall tau-b on rank residuals,multi_turn,A-C,12,0.4848484848484848,-0.2033898305084746,0.9836065573770494,9083,917
+known_params12,single_turn,Kendall tau-b on rank residuals,multi_turn,A-D,12,0.2121212121212121,-0.39999999999999997,0.8196721311475411,9496,504
+known_params12,single_turn,Kendall tau-b on rank residuals,agentic,A-C,12,0.1818181818181818,-0.30508474576271183,1.0333333333333332,9345,655
+known_params12,single_turn,Kendall tau-b on rank residuals,agentic,A-D,12,0.0909090909090909,-0.5762711864406781,0.8474576271186441,9791,209
+known_params12,log_params,Kendall tau-b on rank residuals,overall,A-C,12,-0.1212121212121212,-0.8524590163934427,0.33333333333333326,9901,99
+known_params12,log_params,Kendall tau-b on rank residuals,overall,A-D,12,0.303030303030303,-0.6666666666666667,1.129032258064516,9845,155
+known_params12,log_params,Kendall tau-b on rank residuals,multi_turn,A-C,12,-0.1818181818181818,-1.0163934426229508,0.2258431085043983,9920,80
+known_params12,log_params,Kendall tau-b on rank residuals,multi_turn,A-D,12,0.2424242424242424,-0.7796610169491526,1.0,9864,136
+known_params12,log_params,Kendall tau-b on rank residuals,agentic,A-C,12,-0.1818181818181818,-0.7579423403052571,0.3448275862068965,9647,353
+known_params12,log_params,Kendall tau-b on rank residuals,agentic,A-D,12,0.12121212121212119,-0.5808504398826979,1.0491803278688525,9594,406
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,overall,A-C,12,0.24242424242424238,-0.3727787698614702,0.9373611911657562,9058,942
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,overall,A-D,12,0.09090909090909088,-0.6666666666666666,1.0981591278296348,9413,587
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,multi_turn,A-C,12,0.2424242424242424,-0.48250412223657263,0.8955956842258226,9019,981
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,multi_turn,A-D,12,0.030303030303030304,-0.7457627118644069,1.016471989257202,9378,622
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,agentic,A-C,12,0.12121212121212119,-0.4594353633690506,0.918032786885246,9049,951
+known_params12,single_turn_and_log_params,Kendall tau-b on rank residuals,agentic,A-D,12,0.2121212121212121,-0.6885245901639345,1.0491803278688525,9410,590

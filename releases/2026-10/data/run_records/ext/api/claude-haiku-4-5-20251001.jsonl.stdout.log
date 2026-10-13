@@ -1,0 +1,5 @@
+claude-haiku-4-5-20251001: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+claude-haiku-4-5-20251001: finished=180 missing=0 int_items=60 correct_last_int=47 not_bare_number=0 finish_reason_length=2

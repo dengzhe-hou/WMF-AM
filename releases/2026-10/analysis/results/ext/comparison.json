@@ -1,0 +1,30 @@
+{
+  "no_system_message": {
+    "hosted_correct": 25,
+    "local_correct": 31,
+    "hosted_truncated": 6,
+    "local_truncated": 1,
+    "both_correct": 24,
+    "only_hosted_correct": 1,
+    "only_local_correct": 7,
+    "same_verdict": 52,
+    "identical_response_text": 37,
+    "prompt_token_difference_hosted_minus_local": {
+      "-24": 60
+    }
+  },
+  "with_system_header": {
+    "hosted_correct": 31,
+    "local_correct": 31,
+    "hosted_truncated": 0,
+    "local_truncated": 1,
+    "both_correct": 29,
+    "only_hosted_correct": 2,
+    "only_local_correct": 2,
+    "same_verdict": 56,
+    "identical_response_text": 48,
+    "prompt_token_difference_hosted_minus_local": {
+      "0": 60
+    }
+  }
+}

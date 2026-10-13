@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-05T14:17:26.877754+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/budget_20261005/api/provenance/gpt-4.1-2025-04-14.endpoints.20261005T141526Z.json",
+  "records": "/path/to/repo/results/budget_20261005/api/gpt-4.1-2025-04-14.jsonl",
+  "bank": "/path/to/repo/budget_20261005/budget_bank.jsonl",
+  "request_model": "openai/gpt-4.1",
+  "canonical_model": "openai/gpt-4.1-2025-04-14",
+  "provider": "OpenAI",
+  "checks": {
+    "endpoint request id == 'openai/gpt-4.1'": true,
+    "original provider endpoint exists (OpenAI)": true,
+    "original provider endpoints map to 'openai/gpt-4.1-2025-04-14'": true,
+    "every bank item has exactly one final record (60 items)": true,
+    "request_model == 'openai/gpt-4.1'": true,
+    "provider == 'OpenAI'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

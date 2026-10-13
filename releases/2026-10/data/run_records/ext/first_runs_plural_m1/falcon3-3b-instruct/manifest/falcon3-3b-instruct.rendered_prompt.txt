@@ -1,0 +1,3 @@
+<|user|>
+Reply with the number 7 and nothing else.
+<|assistant|>

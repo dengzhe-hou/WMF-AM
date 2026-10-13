@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-04T15:42:29.915176+00:00",
+  "mode": "full",
+  "endpoints": "/path/to/repo/results/ext/api/provenance/gpt-4.1-mini-2025-04-14.endpoints.20261004T153832Z.json",
+  "records": "/path/to/repo/results/ext/api/gpt-4.1-mini-2025-04-14.jsonl",
+  "bank": "/path/to/repo/ext/ext_bank.jsonl",
+  "request_model": "openai/gpt-4.1-mini",
+  "canonical_model": "openai/gpt-4.1-mini-2025-04-14",
+  "provider": "OpenAI",
+  "checks": {
+    "endpoint request id == 'openai/gpt-4.1-mini'": true,
+    "original provider endpoint exists (OpenAI)": true,
+    "original provider endpoints map to 'openai/gpt-4.1-mini-2025-04-14'": true,
+    "every bank item has exactly one final record (180 items)": true,
+    "request_model == 'openai/gpt-4.1-mini'": true,
+    "provider == 'OpenAI'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true
+  },
+  "passed": true
+}

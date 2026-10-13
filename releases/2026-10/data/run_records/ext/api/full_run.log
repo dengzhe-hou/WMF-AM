@@ -1,0 +1,176 @@
+== full claude-sonnet-4-5-20250929  request model=anthropic/claude-sonnet-4.5  canonical model=anthropic/claude-4.5-sonnet-20250929  provider=Anthropic
+  PASS  endpoint request id == 'anthropic/claude-sonnet-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-sonnet-20250929'
+claude-sonnet-4-5-20250929: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'anthropic/claude-sonnet-4.5': 180}
+  provider seen:       {'Anthropic': 180}
+  finish_reason seen:  {'length': 180}
+  tokens: prompt=45620 completion=6720 reasoning=0 reported_cost_usd=0.2377 cost_fields=180/180
+  PASS  endpoint request id == 'anthropic/claude-sonnet-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-sonnet-20250929'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'anthropic/claude-sonnet-4.5'
+  PASS  provider == 'Anthropic'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full claude-sonnet-4-5-20250929: all checks passed -> /path/to/repo/results/ext/api/claude-sonnet-4-5-20250929.jsonl
+== full claude-haiku-4-5-20251001  request model=anthropic/claude-haiku-4.5  canonical model=anthropic/claude-4.5-haiku-20251001  provider=Anthropic
+  PASS  endpoint request id == 'anthropic/claude-haiku-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-haiku-20251001'
+claude-haiku-4-5-20251001: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'anthropic/claude-haiku-4.5': 180}
+  provider seen:       {'Anthropic': 180}
+  finish_reason seen:  {'stop': 178, 'length': 2}
+  tokens: prompt=45620 completion=1430 reasoning=0 reported_cost_usd=0.0528 cost_fields=180/180
+  PASS  endpoint request id == 'anthropic/claude-haiku-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-haiku-20251001'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'anthropic/claude-haiku-4.5'
+  PASS  provider == 'Anthropic'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full claude-haiku-4-5-20251001: all checks passed -> /path/to/repo/results/ext/api/claude-haiku-4-5-20251001.jsonl
+== full claude-opus-4-5-20251101  request model=anthropic/claude-opus-4.5  canonical model=anthropic/claude-4.5-opus-20251124  provider=Anthropic
+  PASS  endpoint request id == 'anthropic/claude-opus-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-opus-20251124'
+claude-opus-4-5-20251101: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'anthropic/claude-opus-4.5': 180}
+  provider seen:       {'Anthropic': 180}
+  finish_reason seen:  {'length': 172, 'stop': 8}
+  tokens: prompt=45620 completion=6600 reasoning=0 reported_cost_usd=0.3931 cost_fields=180/180
+  PASS  endpoint request id == 'anthropic/claude-opus-4.5'
+  PASS  original provider endpoint exists (Anthropic)
+  PASS  original provider endpoints map to 'anthropic/claude-4.5-opus-20251124'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'anthropic/claude-opus-4.5'
+  PASS  provider == 'Anthropic'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full claude-opus-4-5-20251101: all checks passed -> /path/to/repo/results/ext/api/claude-opus-4-5-20251101.jsonl
+== full gpt-4.1-2025-04-14  request model=openai/gpt-4.1  canonical model=openai/gpt-4.1-2025-04-14  provider=OpenAI
+  PASS  endpoint request id == 'openai/gpt-4.1'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-4.1-2025-04-14'
+gpt-4.1-2025-04-14: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'openai/gpt-4.1': 180}
+  provider seen:       {'OpenAI': 180}
+  finish_reason seen:  {'stop': 180}
+  tokens: prompt=39300 completion=695 reasoning=0 reported_cost_usd=0.0842 cost_fields=180/180
+  PASS  endpoint request id == 'openai/gpt-4.1'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-4.1-2025-04-14'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'openai/gpt-4.1'
+  PASS  provider == 'OpenAI'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full gpt-4.1-2025-04-14: all checks passed -> /path/to/repo/results/ext/api/gpt-4.1-2025-04-14.jsonl
+== full gpt-4.1-mini-2025-04-14  request model=openai/gpt-4.1-mini  canonical model=openai/gpt-4.1-mini-2025-04-14  provider=OpenAI
+  PASS  endpoint request id == 'openai/gpt-4.1-mini'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-4.1-mini-2025-04-14'
+gpt-4.1-mini-2025-04-14: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'openai/gpt-4.1-mini': 180}
+  provider seen:       {'OpenAI': 180}
+  finish_reason seen:  {'stop': 180}
+  tokens: prompt=39300 completion=692 reasoning=0 reported_cost_usd=0.0168 cost_fields=180/180
+  PASS  endpoint request id == 'openai/gpt-4.1-mini'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-4.1-mini-2025-04-14'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'openai/gpt-4.1-mini'
+  PASS  provider == 'OpenAI'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full gpt-4.1-mini-2025-04-14: all checks passed -> /path/to/repo/results/ext/api/gpt-4.1-mini-2025-04-14.jsonl
+== full command-a-03-2025  request model=cohere/command-a  canonical model=cohere/command-a-03-2025  provider=Cohere
+  PASS  endpoint request id == 'cohere/command-a'
+  PASS  original provider endpoint exists (Cohere)
+  PASS  original provider endpoints map to 'cohere/command-a-03-2025'
+command-a-03-2025: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'cohere/command-a': 180}
+  provider seen:       {'Cohere': 180}
+  finish_reason seen:  {'stop': 180}
+  tokens: prompt=42520 completion=1316 reasoning=0 reported_cost_usd=0.1195 cost_fields=180/180
+  PASS  endpoint request id == 'cohere/command-a'
+  PASS  original provider endpoint exists (Cohere)
+  PASS  original provider endpoints map to 'cohere/command-a-03-2025'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'cohere/command-a'
+  PASS  provider == 'Cohere'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full command-a-03-2025: all checks passed -> /path/to/repo/results/ext/api/command-a-03-2025.jsonl
+== full command-r7b-12-2024  request model=cohere/command-r7b-12-2024  canonical model=cohere/command-r7b-12-2024  provider=Cohere
+  PASS  endpoint request id == 'cohere/command-r7b-12-2024'
+  PASS  original provider endpoint exists (Cohere)
+  PASS  original provider endpoints map to 'cohere/command-r7b-12-2024'
+command-r7b-12-2024: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'cohere/command-r7b-12-2024': 180}
+  provider seen:       {'Cohere': 180}
+  finish_reason seen:  {'stop': 180}
+  tokens: prompt=42520 completion=1326 reasoning=0 reported_cost_usd=0.0018 cost_fields=180/180
+  PASS  endpoint request id == 'cohere/command-r7b-12-2024'
+  PASS  original provider endpoint exists (Cohere)
+  PASS  original provider endpoints map to 'cohere/command-r7b-12-2024'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'cohere/command-r7b-12-2024'
+  PASS  provider == 'Cohere'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full command-r7b-12-2024: all checks passed -> /path/to/repo/results/ext/api/command-r7b-12-2024.jsonl
+== full gpt-5.2-2025-12-11  request model=openai/gpt-5.2  canonical model=openai/gpt-5.2-20251211  provider=OpenAI
+  PASS  endpoint request id == 'openai/gpt-5.2'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-5.2-20251211'
+gpt-5.2-2025-12-11: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+  records=180 final=180 failed_attempts=0
+  response_model seen: {'openai/gpt-5.2': 180}
+  provider seen:       {'OpenAI': 180}
+  finish_reason seen:  {'stop': 180}
+  tokens: prompt=39120 completion=1279 reasoning=0 reported_cost_usd=0.0864 cost_fields=180/180
+  PASS  endpoint request id == 'openai/gpt-5.2'
+  PASS  original provider endpoint exists (OpenAI)
+  PASS  original provider endpoints map to 'openai/gpt-5.2-20251211'
+  PASS  every bank item has exactly one final record (180 items)
+  PASS  request_model == 'openai/gpt-5.2'
+  PASS  provider == 'OpenAI'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full gpt-5.2-2025-12-11: all checks passed -> /path/to/repo/results/ext/api/gpt-5.2-2025-12-11.jsonl

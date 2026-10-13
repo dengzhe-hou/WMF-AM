@@ -1,0 +1,1592 @@
+{
+  "n_models": 18,
+  "n_requests_per_model": 840,
+  "finished": 15120,
+  "missing": 0,
+  "models": [
+    {
+      "model": "granite-4.0-350m",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S3 exception; the other 5 conditions passed",
+      "compliance": {
+        "numerator": 600,
+        "denominator": 630,
+        "rate": 0.9523809523809523
+      },
+      "truncated": 57,
+      "run_seconds": 39.0,
+      "blocks": {
+        "A": {
+          "numerator": 5,
+          "denominator": 60,
+          "rate": 0.08333333333333333
+        },
+        "B": {
+          "numerator": 3,
+          "denominator": 140,
+          "rate": 0.02142857142857143
+        },
+        "C": {
+          "numerator": 59,
+          "denominator": 90,
+          "rate": 0.6555555555555556
+        },
+        "D": {
+          "numerator": 12,
+          "denominator": 100,
+          "rate": 0.12
+        },
+        "E": {
+          "numerator": 53,
+          "denominator": 90,
+          "rate": 0.5888888888888889
+        },
+        "F": {
+          "numerator": 11,
+          "denominator": 90,
+          "rate": 0.12222222222222222
+        },
+        "G": {
+          "numerator": 12,
+          "denominator": 150,
+          "rate": 0.08
+        },
+        "H": {
+          "numerator": 5,
+          "denominator": 60,
+          "rate": 0.08333333333333333
+        },
+        "I": {
+          "numerator": 20,
+          "denominator": 60,
+          "rate": 0.3333333333333333
+        }
+      }
+    },
+    {
+      "model": "llama-3.2-1b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S3 exception; the other 5 conditions passed",
+      "compliance": {
+        "numerator": 505,
+        "denominator": 630,
+        "rate": 0.8015873015873016
+      },
+      "truncated": 100,
+      "run_seconds": 81.0,
+      "blocks": {
+        "A": {
+          "numerator": 0,
+          "denominator": 60,
+          "rate": 0.0
+        },
+        "B": {
+          "numerator": 2,
+          "denominator": 140,
+          "rate": 0.014285714285714285
+        },
+        "C": {
+          "numerator": 58,
+          "denominator": 90,
+          "rate": 0.6444444444444445
+        },
+        "D": {
+          "numerator": 56,
+          "denominator": 100,
+          "rate": 0.56
+        },
+        "E": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        },
+        "F": {
+          "numerator": 24,
+          "denominator": 90,
+          "rate": 0.26666666666666666
+        },
+        "G": {
+          "numerator": 17,
+          "denominator": 150,
+          "rate": 0.11333333333333333
+        },
+        "H": {
+          "numerator": 10,
+          "denominator": 60,
+          "rate": 0.16666666666666666
+        },
+        "I": {
+          "numerator": 19,
+          "denominator": 60,
+          "rate": 0.31666666666666665
+        }
+      }
+    },
+    {
+      "model": "falcon3-1b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 486,
+        "denominator": 630,
+        "rate": 0.7714285714285715
+      },
+      "truncated": 164,
+      "run_seconds": 116.0,
+      "blocks": {
+        "A": {
+          "numerator": 2,
+          "denominator": 60,
+          "rate": 0.03333333333333333
+        },
+        "B": {
+          "numerator": 3,
+          "denominator": 140,
+          "rate": 0.02142857142857143
+        },
+        "C": {
+          "numerator": 13,
+          "denominator": 90,
+          "rate": 0.14444444444444443
+        },
+        "D": {
+          "numerator": 51,
+          "denominator": 100,
+          "rate": 0.51
+        },
+        "E": {
+          "numerator": 49,
+          "denominator": 90,
+          "rate": 0.5444444444444444
+        },
+        "F": {
+          "numerator": 6,
+          "denominator": 90,
+          "rate": 0.06666666666666667
+        },
+        "G": {
+          "numerator": 17,
+          "denominator": 150,
+          "rate": 0.11333333333333333
+        },
+        "H": {
+          "numerator": 2,
+          "denominator": 60,
+          "rate": 0.03333333333333333
+        },
+        "I": {
+          "numerator": 21,
+          "denominator": 60,
+          "rate": 0.35
+        }
+      }
+    },
+    {
+      "model": "llama-3.2-3b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 601,
+        "denominator": 630,
+        "rate": 0.953968253968254
+      },
+      "truncated": 19,
+      "run_seconds": 186.0,
+      "blocks": {
+        "A": {
+          "numerator": 11,
+          "denominator": 60,
+          "rate": 0.18333333333333332
+        },
+        "B": {
+          "numerator": 8,
+          "denominator": 140,
+          "rate": 0.05714285714285714
+        },
+        "C": {
+          "numerator": 87,
+          "denominator": 90,
+          "rate": 0.9666666666666667
+        },
+        "D": {
+          "numerator": 47,
+          "denominator": 100,
+          "rate": 0.47
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 38,
+          "denominator": 90,
+          "rate": 0.4222222222222222
+        },
+        "G": {
+          "numerator": 43,
+          "denominator": 150,
+          "rate": 0.2866666666666667
+        },
+        "H": {
+          "numerator": 7,
+          "denominator": 60,
+          "rate": 0.11666666666666667
+        },
+        "I": {
+          "numerator": 57,
+          "denominator": 60,
+          "rate": 0.95
+        }
+      }
+    },
+    {
+      "model": "falcon3-3b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 354,
+        "denominator": 630,
+        "rate": 0.5619047619047619
+      },
+      "truncated": 313,
+      "run_seconds": 207.0,
+      "blocks": {
+        "A": {
+          "numerator": 2,
+          "denominator": 60,
+          "rate": 0.03333333333333333
+        },
+        "B": {
+          "numerator": 2,
+          "denominator": 140,
+          "rate": 0.014285714285714285
+        },
+        "C": {
+          "numerator": 19,
+          "denominator": 90,
+          "rate": 0.2111111111111111
+        },
+        "D": {
+          "numerator": 27,
+          "denominator": 100,
+          "rate": 0.27
+        },
+        "E": {
+          "numerator": 83,
+          "denominator": 90,
+          "rate": 0.9222222222222223
+        },
+        "F": {
+          "numerator": 31,
+          "denominator": 90,
+          "rate": 0.34444444444444444
+        },
+        "G": {
+          "numerator": 32,
+          "denominator": 150,
+          "rate": 0.21333333333333335
+        },
+        "H": {
+          "numerator": 14,
+          "denominator": 60,
+          "rate": 0.23333333333333334
+        },
+        "I": {
+          "numerator": 59,
+          "denominator": 60,
+          "rate": 0.9833333333333333
+        }
+      }
+    },
+    {
+      "model": "qwen3-4b-instruct-2507",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 391,
+        "denominator": 630,
+        "rate": 0.6206349206349207
+      },
+      "truncated": 248,
+      "run_seconds": 337.0,
+      "blocks": {
+        "A": {
+          "numerator": 1,
+          "denominator": 60,
+          "rate": 0.016666666666666666
+        },
+        "B": {
+          "numerator": 0,
+          "denominator": 140,
+          "rate": 0.0
+        },
+        "C": {
+          "numerator": 84,
+          "denominator": 90,
+          "rate": 0.9333333333333333
+        },
+        "D": {
+          "numerator": 55,
+          "denominator": 100,
+          "rate": 0.55
+        },
+        "E": {
+          "numerator": 87,
+          "denominator": 90,
+          "rate": 0.9666666666666667
+        },
+        "F": {
+          "numerator": 49,
+          "denominator": 90,
+          "rate": 0.5444444444444444
+        },
+        "G": {
+          "numerator": 22,
+          "denominator": 150,
+          "rate": 0.14666666666666667
+        },
+        "H": {
+          "numerator": 0,
+          "denominator": 60,
+          "rate": 0.0
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "model": "falcon3-7b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 599,
+        "denominator": 630,
+        "rate": 0.9507936507936507
+      },
+      "truncated": 29,
+      "run_seconds": 457.0,
+      "blocks": {
+        "A": {
+          "numerator": 17,
+          "denominator": 60,
+          "rate": 0.2833333333333333
+        },
+        "B": {
+          "numerator": 8,
+          "denominator": 140,
+          "rate": 0.05714285714285714
+        },
+        "C": {
+          "numerator": 88,
+          "denominator": 90,
+          "rate": 0.9777777777777777
+        },
+        "D": {
+          "numerator": 87,
+          "denominator": 100,
+          "rate": 0.87
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 44,
+          "denominator": 90,
+          "rate": 0.4888888888888889
+        },
+        "G": {
+          "numerator": 54,
+          "denominator": 150,
+          "rate": 0.36
+        },
+        "H": {
+          "numerator": 15,
+          "denominator": 60,
+          "rate": 0.25
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "model": "granite-3.1-8b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 607,
+        "denominator": 630,
+        "rate": 0.9634920634920635
+      },
+      "truncated": 43,
+      "run_seconds": 337.0,
+      "blocks": {
+        "A": {
+          "numerator": 15,
+          "denominator": 60,
+          "rate": 0.25
+        },
+        "B": {
+          "numerator": 7,
+          "denominator": 140,
+          "rate": 0.05
+        },
+        "C": {
+          "numerator": 76,
+          "denominator": 90,
+          "rate": 0.8444444444444444
+        },
+        "D": {
+          "numerator": 69,
+          "denominator": 100,
+          "rate": 0.69
+        },
+        "E": {
+          "numerator": 84,
+          "denominator": 90,
+          "rate": 0.9333333333333333
+        },
+        "F": {
+          "numerator": 41,
+          "denominator": 90,
+          "rate": 0.45555555555555555
+        },
+        "G": {
+          "numerator": 56,
+          "denominator": 150,
+          "rate": 0.37333333333333335
+        },
+        "H": {
+          "numerator": 17,
+          "denominator": 60,
+          "rate": 0.2833333333333333
+        },
+        "I": {
+          "numerator": 54,
+          "denominator": 60,
+          "rate": 0.9
+        }
+      }
+    },
+    {
+      "model": "falcon3-10b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 617,
+        "denominator": 630,
+        "rate": 0.9793650793650793
+      },
+      "truncated": 26,
+      "run_seconds": 613.0,
+      "blocks": {
+        "A": {
+          "numerator": 20,
+          "denominator": 60,
+          "rate": 0.3333333333333333
+        },
+        "B": {
+          "numerator": 6,
+          "denominator": 140,
+          "rate": 0.04285714285714286
+        },
+        "C": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "D": {
+          "numerator": 84,
+          "denominator": 100,
+          "rate": 0.84
+        },
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        },
+        "G": {
+          "numerator": 87,
+          "denominator": 150,
+          "rate": 0.58
+        },
+        "H": {
+          "numerator": 18,
+          "denominator": 60,
+          "rate": 0.3
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "model": "llama-3.3-70b-instruct",
+      "source": "local",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "S1–S6 passed",
+      "compliance": {
+        "numerator": 624,
+        "denominator": 630,
+        "rate": 0.9904761904761905
+      },
+      "truncated": 4,
+      "run_seconds": 783.0,
+      "blocks": {
+        "A": {
+          "numerator": 31,
+          "denominator": 60,
+          "rate": 0.5166666666666667
+        },
+        "B": {
+          "numerator": 5,
+          "denominator": 140,
+          "rate": 0.03571428571428571
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 95,
+          "denominator": 100,
+          "rate": 0.95
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 64,
+          "denominator": 90,
+          "rate": 0.7111111111111111
+        },
+        "G": {
+          "numerator": 142,
+          "denominator": 150,
+          "rate": 0.9466666666666667
+        },
+        "H": {
+          "numerator": 39,
+          "denominator": 60,
+          "rate": 0.65
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 217,
+        "denominator": 630,
+        "rate": 0.34444444444444444
+      },
+      "truncated": 452,
+      "run_seconds": 310.0,
+      "blocks": {
+        "A": {
+          "numerator": 0,
+          "denominator": 60,
+          "rate": 0.0
+        },
+        "B": {
+          "numerator": 0,
+          "denominator": 140,
+          "rate": 0.0
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 3,
+          "denominator": 100,
+          "rate": 0.03
+        },
+        "E": {
+          "numerator": 77,
+          "denominator": 90,
+          "rate": 0.8555555555555555
+        },
+        "F": {
+          "numerator": 65,
+          "denominator": 90,
+          "rate": 0.7222222222222222
+        },
+        "G": {
+          "numerator": 71,
+          "denominator": 150,
+          "rate": 0.47333333333333333
+        },
+        "H": {
+          "numerator": 11,
+          "denominator": 60,
+          "rate": 0.18333333333333332
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.893598
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 630,
+        "denominator": 630,
+        "rate": 1.0
+      },
+      "truncated": 0,
+      "run_seconds": 182.0,
+      "blocks": {
+        "A": {
+          "numerator": 39,
+          "denominator": 60,
+          "rate": 0.65
+        },
+        "B": {
+          "numerator": 9,
+          "denominator": 140,
+          "rate": 0.06428571428571428
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 100,
+          "denominator": 100,
+          "rate": 1.0
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 67,
+          "denominator": 90,
+          "rate": 0.7444444444444445
+        },
+        "G": {
+          "numerator": 146,
+          "denominator": 150,
+          "rate": 0.9733333333333334
+        },
+        "H": {
+          "numerator": 41,
+          "denominator": 60,
+          "rate": 0.6833333333333333
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.260406
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 354,
+        "denominator": 630,
+        "rate": 0.5619047619047619
+      },
+      "truncated": 298,
+      "run_seconds": 307.0,
+      "blocks": {
+        "A": {
+          "numerator": 14,
+          "denominator": 60,
+          "rate": 0.23333333333333334
+        },
+        "B": {
+          "numerator": 0,
+          "denominator": 140,
+          "rate": 0.0
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 39,
+          "denominator": 100,
+          "rate": 0.39
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        },
+        "G": {
+          "numerator": 103,
+          "denominator": 150,
+          "rate": 0.6866666666666666
+        },
+        "H": {
+          "numerator": 52,
+          "denominator": 60,
+          "rate": 0.8666666666666667
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 1.46133
+    },
+    {
+      "model": "gpt-4.1-2025-04-14",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 630,
+        "denominator": 630,
+        "rate": 1.0
+      },
+      "truncated": 0,
+      "run_seconds": 205.0,
+      "blocks": {
+        "A": {
+          "numerator": 49,
+          "denominator": 60,
+          "rate": 0.8166666666666667
+        },
+        "B": {
+          "numerator": 20,
+          "denominator": 140,
+          "rate": 0.14285714285714285
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 99,
+          "denominator": 100,
+          "rate": 0.99
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 71,
+          "denominator": 90,
+          "rate": 0.7888888888888889
+        },
+        "G": {
+          "numerator": 146,
+          "denominator": 150,
+          "rate": 0.9733333333333334
+        },
+        "H": {
+          "numerator": 55,
+          "denominator": 60,
+          "rate": 0.9166666666666666
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.439382
+    },
+    {
+      "model": "gpt-4.1-mini-2025-04-14",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 630,
+        "denominator": 630,
+        "rate": 1.0
+      },
+      "truncated": 0,
+      "run_seconds": 206.0,
+      "blocks": {
+        "A": {
+          "numerator": 36,
+          "denominator": 60,
+          "rate": 0.6
+        },
+        "B": {
+          "numerator": 6,
+          "denominator": 140,
+          "rate": 0.04285714285714286
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 100,
+          "denominator": 100,
+          "rate": 1.0
+        },
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 73,
+          "denominator": 90,
+          "rate": 0.8111111111111111
+        },
+        "G": {
+          "numerator": 128,
+          "denominator": 150,
+          "rate": 0.8533333333333334
+        },
+        "H": {
+          "numerator": 39,
+          "denominator": 60,
+          "rate": 0.65
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.0851852
+    },
+    {
+      "model": "command-a-03-2025",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 630,
+        "denominator": 630,
+        "rate": 1.0
+      },
+      "truncated": 0,
+      "run_seconds": 285.0,
+      "blocks": {
+        "A": {
+          "numerator": 31,
+          "denominator": 60,
+          "rate": 0.5166666666666667
+        },
+        "B": {
+          "numerator": 9,
+          "denominator": 140,
+          "rate": 0.06428571428571428
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 98,
+          "denominator": 100,
+          "rate": 0.98
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 61,
+          "denominator": 90,
+          "rate": 0.6777777777777778
+        },
+        "G": {
+          "numerator": 125,
+          "denominator": 150,
+          "rate": 0.8333333333333334
+        },
+        "H": {
+          "numerator": 36,
+          "denominator": 60,
+          "rate": 0.6
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.5762275
+    },
+    {
+      "model": "command-r7b-12-2024",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 615,
+        "denominator": 630,
+        "rate": 0.9761904761904762
+      },
+      "truncated": 15,
+      "run_seconds": 111.0,
+      "blocks": {
+        "A": {
+          "numerator": 13,
+          "denominator": 60,
+          "rate": 0.21666666666666667
+        },
+        "B": {
+          "numerator": 2,
+          "denominator": 140,
+          "rate": 0.014285714285714285
+        },
+        "C": {
+          "numerator": 83,
+          "denominator": 90,
+          "rate": 0.9222222222222223
+        },
+        "D": {
+          "numerator": 41,
+          "denominator": 100,
+          "rate": 0.41
+        },
+        "E": {
+          "numerator": 76,
+          "denominator": 90,
+          "rate": 0.8444444444444444
+        },
+        "F": {
+          "numerator": 28,
+          "denominator": 90,
+          "rate": 0.3111111111111111
+        },
+        "G": {
+          "numerator": 49,
+          "denominator": 150,
+          "rate": 0.32666666666666666
+        },
+        "H": {
+          "numerator": 12,
+          "denominator": 60,
+          "rate": 0.2
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.0085349625
+    },
+    {
+      "model": "gpt-5.2-2025-12-11",
+      "source": "api",
+      "finished": 840,
+      "missing": 0,
+      "smoke": "5-item API check passed",
+      "compliance": {
+        "numerator": 630,
+        "denominator": 630,
+        "rate": 1.0
+      },
+      "truncated": 0,
+      "run_seconds": 239.0,
+      "blocks": {
+        "A": {
+          "numerator": 56,
+          "denominator": 60,
+          "rate": 0.9333333333333333
+        },
+        "B": {
+          "numerator": 21,
+          "denominator": 140,
+          "rate": 0.15
+        },
+        "C": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "D": {
+          "numerator": 99,
+          "denominator": 100,
+          "rate": 0.99
+        },
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        },
+        "G": {
+          "numerator": 148,
+          "denominator": 150,
+          "rate": 0.9866666666666667
+        },
+        "H": {
+          "numerator": 57,
+          "denominator": 60,
+          "rate": 0.95
+        },
+        "I": {
+          "numerator": 60,
+          "denominator": 60,
+          "rate": 1.0
+        }
+      },
+      "reported_cost_usd": 0.40401725
+    }
+  ],
+  "api_wall_seconds": 1845.0,
+  "api_reported_cost_including_smoke_usd": 4.031637900000025,
+  "ef_rule_status": "both_reported_no_primary_or_final_rule_selected",
+  "analysis_status": "approved_bfcl_comparisons_controls_descriptive_seed_prompt_depth_and_ef_dual_rule_analysis_complete",
+  "source_local_report": "/path/to/repo/results/open_j_rescored_20261003/RUN_REPORT.json",
+  "source_api_report": "/path/to/repo/results/api/report/API_RUN_REPORT.json",
+  "scored_sources": [
+    "/path/to/repo/results/open_j_rescored_20261003/scored",
+    "/path/to/repo/results/api/scored"
+  ],
+  "analysis_reports": {
+    "bfcl_comparison": "results/panel18_20261004/bfcl_comparison_20261004/REPORT.md",
+    "bfcl_controls": "results/panel18_20261004/bfcl_controls_20261004/REPORT.md",
+    "bfcl_controls_independent_check": "results/panel18_20261004/bfcl_controls_20261004/INDEPENDENT_CHECK.json",
+    "bfcl_task_controls": "results/panel18_20261004/bfcl_task_controls_20261004/REPORT.md",
+    "bfcl_task_controls_independent_check": "results/panel18_20261004/bfcl_task_controls_20261004/INDEPENDENT_CHECK.json",
+    "stability": "results/panel18_20261004/stability_20261004/FINDINGS.md",
+    "stability_independent_check": "results/panel18_20261004/stability_20261004/INDEPENDENT_CHECK.json",
+    "ef_comparison": "results/panel18_20261004/ef_comparison_20261004/REPORT.md",
+    "ef_comparison_independent_check": "results/panel18_20261004/ef_comparison_20261004/INDEPENDENT_CHECK.json"
+  },
+  "ef_existing_blocks_rule": {
+    "fields": "models[].blocks.E and models[].blocks.F",
+    "rule": "candidate",
+    "source_column": "correct_strict",
+    "note": "Existing block fields retain candidate values; both rules are reported in ef_scores_by_rule. Neither is the primary or final E/F scoring rule."
+  },
+  "ef_rule_columns": {
+    "submitted": "correct_submitted",
+    "candidate": "correct_strict"
+  },
+  "ef_scores_by_rule": {
+    "submitted": {
+      "granite-4.0-350m": {
+        "E": {
+          "numerator": 53,
+          "denominator": 90,
+          "rate": 0.5888888888888889
+        },
+        "F": {
+          "numerator": 11,
+          "denominator": 90,
+          "rate": 0.12222222222222222
+        }
+      },
+      "llama-3.2-1b-instruct": {
+        "E": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        },
+        "F": {
+          "numerator": 24,
+          "denominator": 90,
+          "rate": 0.26666666666666666
+        }
+      },
+      "falcon3-1b-instruct": {
+        "E": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        },
+        "F": {
+          "numerator": 6,
+          "denominator": 90,
+          "rate": 0.06666666666666667
+        }
+      },
+      "llama-3.2-3b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 42,
+          "denominator": 90,
+          "rate": 0.4666666666666667
+        }
+      },
+      "falcon3-3b-instruct": {
+        "E": {
+          "numerator": 83,
+          "denominator": 90,
+          "rate": 0.9222222222222223
+        },
+        "F": {
+          "numerator": 32,
+          "denominator": 90,
+          "rate": 0.35555555555555557
+        }
+      },
+      "qwen3-4b-instruct-2507": {
+        "E": {
+          "numerator": 87,
+          "denominator": 90,
+          "rate": 0.9666666666666667
+        },
+        "F": {
+          "numerator": 49,
+          "denominator": 90,
+          "rate": 0.5444444444444444
+        }
+      },
+      "falcon3-7b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 44,
+          "denominator": 90,
+          "rate": 0.4888888888888889
+        }
+      },
+      "granite-3.1-8b-instruct": {
+        "E": {
+          "numerator": 84,
+          "denominator": 90,
+          "rate": 0.9333333333333333
+        },
+        "F": {
+          "numerator": 41,
+          "denominator": 90,
+          "rate": 0.45555555555555555
+        }
+      },
+      "falcon3-10b-instruct": {
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        }
+      },
+      "llama-3.3-70b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 64,
+          "denominator": 90,
+          "rate": 0.7111111111111111
+        }
+      },
+      "claude-sonnet-4-5-20250929": {
+        "E": {
+          "numerator": 77,
+          "denominator": 90,
+          "rate": 0.8555555555555555
+        },
+        "F": {
+          "numerator": 65,
+          "denominator": 90,
+          "rate": 0.7222222222222222
+        }
+      },
+      "claude-haiku-4-5-20251001": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 67,
+          "denominator": 90,
+          "rate": 0.7444444444444445
+        }
+      },
+      "claude-opus-4-5-20251101": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        }
+      },
+      "gpt-4.1-2025-04-14": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 71,
+          "denominator": 90,
+          "rate": 0.7888888888888889
+        }
+      },
+      "gpt-4.1-mini-2025-04-14": {
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 73,
+          "denominator": 90,
+          "rate": 0.8111111111111111
+        }
+      },
+      "command-a-03-2025": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 61,
+          "denominator": 90,
+          "rate": 0.6777777777777778
+        }
+      },
+      "command-r7b-12-2024": {
+        "E": {
+          "numerator": 76,
+          "denominator": 90,
+          "rate": 0.8444444444444444
+        },
+        "F": {
+          "numerator": 29,
+          "denominator": 90,
+          "rate": 0.32222222222222224
+        }
+      },
+      "gpt-5.2-2025-12-11": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        }
+      }
+    },
+    "candidate": {
+      "granite-4.0-350m": {
+        "E": {
+          "numerator": 53,
+          "denominator": 90,
+          "rate": 0.5888888888888889
+        },
+        "F": {
+          "numerator": 11,
+          "denominator": 90,
+          "rate": 0.12222222222222222
+        }
+      },
+      "llama-3.2-1b-instruct": {
+        "E": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        },
+        "F": {
+          "numerator": 24,
+          "denominator": 90,
+          "rate": 0.26666666666666666
+        }
+      },
+      "falcon3-1b-instruct": {
+        "E": {
+          "numerator": 49,
+          "denominator": 90,
+          "rate": 0.5444444444444444
+        },
+        "F": {
+          "numerator": 6,
+          "denominator": 90,
+          "rate": 0.06666666666666667
+        }
+      },
+      "llama-3.2-3b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 38,
+          "denominator": 90,
+          "rate": 0.4222222222222222
+        }
+      },
+      "falcon3-3b-instruct": {
+        "E": {
+          "numerator": 83,
+          "denominator": 90,
+          "rate": 0.9222222222222223
+        },
+        "F": {
+          "numerator": 31,
+          "denominator": 90,
+          "rate": 0.34444444444444444
+        }
+      },
+      "qwen3-4b-instruct-2507": {
+        "E": {
+          "numerator": 87,
+          "denominator": 90,
+          "rate": 0.9666666666666667
+        },
+        "F": {
+          "numerator": 49,
+          "denominator": 90,
+          "rate": 0.5444444444444444
+        }
+      },
+      "falcon3-7b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 44,
+          "denominator": 90,
+          "rate": 0.4888888888888889
+        }
+      },
+      "granite-3.1-8b-instruct": {
+        "E": {
+          "numerator": 84,
+          "denominator": 90,
+          "rate": 0.9333333333333333
+        },
+        "F": {
+          "numerator": 41,
+          "denominator": 90,
+          "rate": 0.45555555555555555
+        }
+      },
+      "falcon3-10b-instruct": {
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 50,
+          "denominator": 90,
+          "rate": 0.5555555555555556
+        }
+      },
+      "llama-3.3-70b-instruct": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 64,
+          "denominator": 90,
+          "rate": 0.7111111111111111
+        }
+      },
+      "claude-sonnet-4-5-20250929": {
+        "E": {
+          "numerator": 77,
+          "denominator": 90,
+          "rate": 0.8555555555555555
+        },
+        "F": {
+          "numerator": 65,
+          "denominator": 90,
+          "rate": 0.7222222222222222
+        }
+      },
+      "claude-haiku-4-5-20251001": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 67,
+          "denominator": 90,
+          "rate": 0.7444444444444445
+        }
+      },
+      "claude-opus-4-5-20251101": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        }
+      },
+      "gpt-4.1-2025-04-14": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 71,
+          "denominator": 90,
+          "rate": 0.7888888888888889
+        }
+      },
+      "gpt-4.1-mini-2025-04-14": {
+        "E": {
+          "numerator": 89,
+          "denominator": 90,
+          "rate": 0.9888888888888889
+        },
+        "F": {
+          "numerator": 73,
+          "denominator": 90,
+          "rate": 0.8111111111111111
+        }
+      },
+      "command-a-03-2025": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 61,
+          "denominator": 90,
+          "rate": 0.6777777777777778
+        }
+      },
+      "command-r7b-12-2024": {
+        "E": {
+          "numerator": 76,
+          "denominator": 90,
+          "rate": 0.8444444444444444
+        },
+        "F": {
+          "numerator": 28,
+          "denominator": 90,
+          "rate": 0.3111111111111111
+        }
+      },
+      "gpt-5.2-2025-12-11": {
+        "E": {
+          "numerator": 90,
+          "denominator": 90,
+          "rate": 1.0
+        },
+        "F": {
+          "numerator": 74,
+          "denominator": 90,
+          "rate": 0.8222222222222222
+        }
+      }
+    }
+  },
+  "ef_analysis_source": "results/panel18_20261004/ef_comparison_20261004/analysis.json",
+  "ef_independent_check": {
+    "passed": true,
+    "source": "results/panel18_20261004/ef_comparison_20261004/INDEPENDENT_CHECK.json",
+    "associations_checked": 14,
+    "point_maximum_absolute_numeric_difference": 0.0,
+    "bootstrap_maximum_absolute_numeric_difference": 0.0,
+    "all_group_checks_passed": true
+  }
+}

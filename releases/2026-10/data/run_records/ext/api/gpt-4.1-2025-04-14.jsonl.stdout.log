@@ -1,0 +1,5 @@
+gpt-4.1-2025-04-14: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+gpt-4.1-2025-04-14: finished=180 missing=0 int_items=60 correct_last_int=54 not_bare_number=0 finish_reason_length=0

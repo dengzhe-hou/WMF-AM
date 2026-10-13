@@ -1,0 +1,5 @@
+claude-sonnet-4-5-20250929: bank=180 done=0 to_run=180
+  50/180
+  100/180
+  150/180
+claude-sonnet-4-5-20250929: finished=180 missing=0 int_items=60 correct_last_int=0 not_bare_number=60 finish_reason_length=180

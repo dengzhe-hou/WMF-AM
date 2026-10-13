@@ -1,0 +1,6 @@
+5A download done beforehand by localrun/download_models.sh into HF_HUB_CACHE=/path/to/hf_cache; the job runs with HF_HUB_OFFLINE=1
+OMP_NUM_THREADS=4 (torch on this cluster crashes with more; job has 2 CPUs)
+CUDA_HOME=/path/to/conda_env/targets/x86_64-linux set as in Job N's successful attempt; the run protocol sets only VLLM_USE_FLASHINFER_SAMPLER=0. Neither changes greedy outputs.
+paths: ~/wmf_am is /path/to/repo/results/ext/open/granite-4.0-350m, venv is /path/to/venv (vLLM 0.30.0, PyPI CUDA 13.0 build)
+5B port 8010 instead of 8000 (up to two servers share node-a; port = 8000 + 10 x array index, first free)
+Exception 2026-10-03: S3 remains fail; S1/S2/S4/S5/S6 pass. Proceed with all items of ext_bank.jsonl; see manifest/granite-4.0-350m.smoke_exception.json.

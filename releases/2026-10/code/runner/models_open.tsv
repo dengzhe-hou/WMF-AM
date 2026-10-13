@@ -1,0 +1,12 @@
+order	label	hf_repo	revision	weights_gb	gpus	tensor_parallel	trust_remote_code
+1	granite-4.0-350m	ibm-granite/granite-4.0-350m	bd8a1497065c0d6ba1ef19af6b0d2b14bacf71c2	0.7	0	1	no
+2	llama-3.2-1b-instruct	meta-llama/Llama-3.2-1B-Instruct	9213176726f574b556790deb65791e0c5aa438b6	2.5	0	1	no
+3	falcon3-1b-instruct	tiiuae/Falcon3-1B-Instruct	28ba2251970a01dd1edc7ba7dad2eb71216ccfdf	3.3	0	1	no
+4	llama-3.2-3b-instruct	meta-llama/Llama-3.2-3B-Instruct	0cb88a4f764b7a12671c53f0838cd831a0843b95	6.4	0	1	no
+5	falcon3-3b-instruct	tiiuae/Falcon3-3B-Instruct	411bb94318f94f7a5735b77109f456b1e74b42a1	6.5	0	1	no
+6	qwen3-4b-instruct-2507	Qwen/Qwen3-4B-Instruct-2507	cdbee75f17c01a7cc42f958dc650907174af0554	8.0	0	1	no
+7	minicpm3-4b	openbmb/MiniCPM3-4B	d6b14ddaefdb11c624dd75c3c779549bc90b08cb	8.1	0	1	yes
+8	falcon3-7b-instruct	tiiuae/Falcon3-7B-Instruct	1e57a0ecd176c7c139f289c60a74e57f887c3dfb	14.9	0	1	no
+9	granite-3.1-8b-instruct	ibm-granite/granite-3.1-8b-instruct	4009206d5fc95d2e65a7b7633e159d6e97e25d35	16.3	0	1	no
+10	falcon3-10b-instruct	tiiuae/Falcon3-10B-Instruct	8799bc6aec0152757221dc6b272d824642db6202	20.6	0	1	no
+11	llama-3.3-70b-instruct	meta-llama/Llama-3.3-70B-Instruct	6f6073b423013f6a7d4d9f39144961bfbfbc386b	141.1	0,1	2	no

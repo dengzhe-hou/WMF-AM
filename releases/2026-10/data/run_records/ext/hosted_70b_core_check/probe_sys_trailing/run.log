@@ -1,0 +1,19 @@
+== full llama-3.3-70b-instruct  request model=meta-llama/llama-3.3-70b-instruct  canonical model=meta-llama/llama-3.3-70b-instruct  provider=Novita
+  PASS  endpoint request id == 'meta-llama/llama-3.3-70b-instruct'
+  PASS  original provider endpoint exists (Novita)
+  PASS  original provider endpoints map to 'meta-llama/llama-3.3-70b-instruct'
+llama-3.3-70b-instruct: bank=2 done=0 to_run=2
+  records=2 final=2 failed_attempts=0
+  response_model seen: {'meta-llama/llama-3.3-70b-instruct': 2}
+  provider seen:       {'Novita': 2}
+  finish_reason seen:  {'stop': 2}
+  tokens: prompt=268 completion=4 reasoning=0 reported_cost_usd=0.0000 cost_fields=2/2
+  PASS  endpoint request id == 'meta-llama/llama-3.3-70b-instruct'
+  PASS  original provider endpoint exists (Novita)
+  PASS  original provider endpoints map to 'meta-llama/llama-3.3-70b-instruct'
+  PASS  every bank item has exactly one final record (2 items)
+  PASS  request_model == 'meta-llama/llama-3.3-70b-instruct'
+  PASS  provider == 'Novita'
+  PASS  reasoning tokens == 0 and no reasoning trace
+  PASS  response_model is the verified request id or canonical id
+== full llama-3.3-70b-instruct: all checks passed -> /path/to/repo/results/ext/hosted_70b_check/probe_sys_trailing/llama-3.3-70b-instruct.jsonl

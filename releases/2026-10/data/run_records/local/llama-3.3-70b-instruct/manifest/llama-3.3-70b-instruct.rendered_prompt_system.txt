@@ -1,0 +1,21 @@
+<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+Cutting Knowledge Date: December 2023
+Today Date: 26 Jul 2024
+
+You are a precise arithmetic assistant. You track numerical state changes and report final values. Always respond with only the requested number, no explanation.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Track the following point updates carefully.
+
+Initial state:
+Leo: 15 points, James: 18 points, Carol: 15 points
+
+Operations (apply in order):
+  1. Carol gives 2 points to Leo.
+  2. Leo loses 2 points.
+  3. Leo loses 3 points.
+
+Question: After all operations, how many points does Leo have?
+
+Answer with ONLY the number.<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+

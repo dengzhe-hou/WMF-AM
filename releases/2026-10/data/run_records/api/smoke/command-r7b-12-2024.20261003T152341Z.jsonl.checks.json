@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-03T15:23:43.831696+00:00",
+  "mode": "smoke",
+  "endpoints": "/path/to/repo/results/api/provenance/command-r7b-12-2024.endpoints.20261003T152341Z.json",
+  "records": "/path/to/repo/results/api/smoke/command-r7b-12-2024.20261003T152341Z.jsonl",
+  "bank": "/path/to/repo/frozen/bundle/smoke_bank.jsonl",
+  "request_model": "cohere/command-r7b-12-2024",
+  "canonical_model": "cohere/command-r7b-12-2024",
+  "provider": "Cohere",
+  "checks": {
+    "endpoint request id == 'cohere/command-r7b-12-2024'": true,
+    "original provider endpoint exists (Cohere)": true,
+    "original provider endpoints map to 'cohere/command-r7b-12-2024'": true,
+    "every bank item has exactly one final record (5 items)": true,
+    "request_model == 'cohere/command-r7b-12-2024'": true,
+    "provider == 'Cohere'": true,
+    "reasoning tokens == 0 and no reasoning trace": true,
+    "response_model is the verified request id or canonical id": true,
+    "error is null in every record": true
+  },
+  "passed": true
+}

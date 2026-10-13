@@ -1,0 +1,58 @@
+{
+  "smoke_result": {
+    "S1": "pass",
+    "S2": "pass",
+    "S3": "fail",
+    "S4": "pass",
+    "S5": "pass",
+    "S6": "pass"
+  },
+  "detail": {
+    "S1": {
+      "exit_A": 0,
+      "exit_B": 0
+    },
+    "S2": {
+      "n_A": 5,
+      "n_B": 5,
+      "errors_A": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "errors_B": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "missing_files": []
+    },
+    "S3": {
+      "smoke_echo_7": 0,
+      "smoke_echo_42": 0
+    },
+    "S4": {
+      "smoke_echo_7": true,
+      "smoke_echo_42": true,
+      "smoke_k1_a": true,
+      "smoke_k1_b": true,
+      "smoke_k1_c": true
+    },
+    "S5": {
+      "contains_smoke_prompt": true,
+      "contains_think": false
+    },
+    "S6": {
+      "recorded_command_ok": true,
+      "ps_args_ok": true,
+      "ps_args_empty": false,
+      "n_non_default_lines": 1,
+      "non_default_line_ok": true,
+      "non_default_args_line": "(APIServer pid=1474349) INFO MM-DD hh:mm:ss [api_utils.py:286] non-default args: {'model_tag': 'ibm-granite/granite-4.0-350m', 'host': '127.0.0.1', 'port': 8010, 'model': 'ibm-granite/granite-4.0-350m', 'dtype': 'bfloat16', 'revision': 'bd8a1497065c0d6ba1ef19af6b0d2b14bacf71c2', 'max_model_len': 4096, 'served_model_name': ['granite-4.0-350m'], 'generation_config': 'vllm', 'gpu_memory_utilization': 0.9}"
+    }
+  }
+}

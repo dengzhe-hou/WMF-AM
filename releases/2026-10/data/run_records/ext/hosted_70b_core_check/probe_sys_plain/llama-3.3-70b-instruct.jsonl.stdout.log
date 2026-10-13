@@ -1,0 +1,7 @@
+llama-3.3-70b-instruct: bank=2 done=0 to_run=2
+  MISSING A-k3-s2026-p0: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+  MISSING A-k3-s2026-p1: HTTP 429: {"error":{"message":"Provider returned error","code":429,"metadata":{"raw":"meta-llama/llama-3.3-70b-instruct is temporarily rate-limited upstream. Pl
+llama-3.3-70b-instruct: finished=0 missing=2 int_items=0 correct_last_int=0 not_bare_number=0 finish_reason_length=0
+2 bank items have no final record yet; rerun the same command to resume.
+llama-3.3-70b-instruct: bank=2 done=0 to_run=2
+llama-3.3-70b-instruct: finished=2 missing=0 int_items=2 correct_last_int=1 not_bare_number=0 finish_reason_length=0

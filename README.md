@@ -6,7 +6,7 @@ The current October 2026 release is in [`releases/2026-10/`](releases/2026-10/).
 
 ## Current release
 
-Start with the [release README](releases/2026-10/README.md) for protocols, model identities, scoring rules, and complete reproduction instructions. The files retain the layout and contents of the software and data packages prepared for the October 2026 submission.
+Start with the [release README](releases/2026-10/README.md) for protocols, model identities, scoring rules, and complete reproduction instructions. Code, data, and analysis artifacts retain the layout and contents of the software and data packages prepared for the October 2026 submission. The release README includes subsequent documentation corrections.
 
 | Materials | Location |
 | --- | --- |
